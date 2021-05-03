@@ -1,0 +1,31 @@
+{% extends 'portfolio/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+
+<h1 id="blogtitle" class="font-weight-bold text-center">Blogs</h1>
+
+<h3 class="text-center mb-5">Victor has written {{ posts.count }} blog{{ posts.count|pluralize }}</h3>
+<br>
+
+{% for post in posts %}
+
+<div class="row justify-content-center my-3">
+  <div class="col-md-10">
+    <a href="{% url 'blog:detail' post.id %}">
+      <h2>{{ post.title }}</h2>
+    </a>
+    <h5 class="text-muted">{{ post.created_at|date:'M d Y'|upper }}</h5>
+    <h4>{{ post.description|striptags|truncatechars:100 }}</h4>
+  </div>
+</div>
+
+
+
+
+{% endfor %}
+
+{% endblock %}
