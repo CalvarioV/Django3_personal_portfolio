@@ -24,6 +24,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('blog/', include('blog.urls')),
+    # mothers day project
+    path('fabis/', views.fabis, name='fabis'),
 
 ]
 
