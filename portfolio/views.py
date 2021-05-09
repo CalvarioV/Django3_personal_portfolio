@@ -9,4 +9,4 @@ def home(request):
 
 
 def fabis(request):
-    return HttpResponse('Hi Mom, te kiero mucho.')
+    return render(request, 'portfolio/fabis.html')
