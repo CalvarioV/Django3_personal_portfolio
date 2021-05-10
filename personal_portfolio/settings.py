@@ -25,7 +25,7 @@ SECRET_KEY = 'u)w5)3(ud26gqich8nqp82*@l&!038#6^&2!agbliq@7a(8)fp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['calvario24.pythonanywhere.com']
+ALLOWED_HOSTS = ['www.vcalvario.com']
 
 
 # Application definition
