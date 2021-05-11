@@ -6,7 +6,7 @@
 
 <div class="row justify-content-center my-3">
   <div class="col-5">
-    <img src="{% static 'portfolio/myquotecvlogoFinal.jpg' %}" class="img-fluid">
+    <img src="{% static 'portfolio/myquotecvlogoFinal.jpg' %}" class="img-fluid" alt="My Profile Pic">
   </div>
 </div>
 
@@ -30,12 +30,12 @@
 
         {% if project.url %}
         <a href="{{ project.url }}">
-            <img src="{{ project.image.url }}" class="img-fluid mb-2">
+            <img src="{{ project.image.url }}" class="img-fluid mb-2" alt="Project Image">
         </a>
 
         {% else %}
 
-        <img src="{{ project.image.url }}" class="img-fluid mb-2">
+        <img src="{{ project.image.url }}" class="img-fluid mb-2" alt="Project Image">
 
         {% endif %}
 
@@ -47,7 +47,7 @@
 <div class="row justify-content-center my-3">
   <div class="col-lg-4 col-md-6">
       <h2>Ask and you shall receive.</h2>
-    <img src="{% static 'portfolio/babygrootnike.jpeg' %}" class="img-fluid mb-2">
+    <img src="{% static 'portfolio/babygrootnike.jpeg' %}" class="img-fluid mb-2" alt="Baby Groot">
   </div>
 </div>
 
