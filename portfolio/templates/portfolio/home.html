@@ -26,7 +26,7 @@
     <div class="col-lg-4 col-md-6">
 
         <h3>{{ project.title }}</h3>
-        <p>{{ project.description }}</p>
+
 
         {% if project.url %}
         <a href="{{ project.url }}">
@@ -39,6 +39,8 @@
 
         {% endif %}
 
+        <p>{{ project.description }}</p>
+
     </div>
 
 {% endfor %}
@@ -49,15 +51,24 @@
 <div class="row justify-content-center my-3">
   <div class="col-lg-4 col-md-6">
       <h2>Ask and you shall receive.</h2>
-      <p>Hello</p>
+
       <img src="{% static 'portfolio/babygrootnike.jpeg' %}" class="img-fluid mb-2" alt="Baby Groot">
-      <p>Hello</p>
+
   </div>
 </div>
 <hr style="background-color:red">
 <div class="row justify-content-center" id="Video">
-    <iframe src="https://www.youtube.com/embed/FZFMTpEAPsU" width="500" height="400"></iframe>
+    <iframe src="https://www.youtube.com/embed/FZFMTpEAPsU" width="500" height="350"></iframe>
 </div>
 
+<hr style="background-color:blue">
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col">
+            <img src="{% static 'portfolio/SelfMadeLogo.png' %}" class="img-fluid mb-2" alt="Logo">
+        </div>
+    </div>
+</div>
 
 {% endblock %}
