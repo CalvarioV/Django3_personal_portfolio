@@ -1,7 +1,5 @@
 {% extends 'portfolio/base.html' %}
-
 {% load static %}
-
 {% block content %}
 
 <div class="row justify-content-center my-3">
@@ -46,17 +44,20 @@
 {% endfor %}
 </div>
 
-<hr>
 
 <div class="row justify-content-center my-3">
   <div class="col-lg-4 col-md-6">
       <h2>Ask and you shall receive.</h2>
-
       <img src="{% static 'portfolio/babygrootnike.jpeg' %}" class="img-fluid mb-2" alt="Baby Groot">
-
+      <div class="w3-panel w3-leftbar w3-light-grey">
+            <p class="w3-xlarge w3-serif"><i>"Therefore I say to you, whatever you pray and ask for, believe that you will receive it, and it will be so for you."</i></p>
+            <p><b>Mark 11:24</b></p>
+      </div>
   </div>
 </div>
+
 <hr>
+
 <div class="container">
     <div class="row justify-content-center">
         <iframe src="https://www.youtube.com/embed/YiZ05G6LgUM" width="500" height="350"></iframe>
@@ -78,6 +79,23 @@
                         <b>12)</b> For the next 30 days treat anyone who you come in contact with as the most important person on earth<br>
                     </p>
                 </div>
+
+            <hr>
+
+            <button type="button" class="collapsible">As A Man Thinketh</button>
+                <div class="content">
+                    <p id="utubetext">
+                        The aphorism, "As a man thinketh in his heart so is he," not only embraces the whole of a man's being, but is so
+                        comprehensive as to reach out to every condition and circumstance of his life. A man is literally what he thinks,
+                        his character being the complete sum of all his thoughts.
+                        As the plant springs from, and could not be without, the seed, so every act of a man springs from the hidden
+                        seeds of thought, and could not have appeared without them. This applies equally to those acts called
+                        "spontaneous" and "unpremeditated" as to those which are deliberately executed.
+                        Act is the blossom of thought, and joy and suffering are its fruits; thus does a man garner in the sweet and bitter
+                        fruitage of his own husbandry.
+                    </p>
+                </div>
+
         </div>
     </div>
 </div>
