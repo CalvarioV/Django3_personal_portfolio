@@ -26,6 +26,8 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     # mothers day project
     path('fabis/', views.fabis, name='fabis'),
+    #bestbuy guide
+    path('bestguide/', include('bestguide.urls')),
 
 ]
 
