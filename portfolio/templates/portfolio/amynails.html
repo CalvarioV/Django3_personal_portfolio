@@ -1,0 +1,20 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Amy's Nails</title>
+    <style>
+        body {
+            background-color:black;
+        }
+    </style>
+</head>
+<body>
+<img src="{% static 'portfolio/amysnails.jpg' %}" class="img-fluid" alt="Amy's Nails">
+</body>
+</html>
+{% endblock %}

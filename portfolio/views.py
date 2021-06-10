@@ -10,3 +10,6 @@ def home(request):
 
 def fabis(request):
     return render(request, 'portfolio/fabis.html')
+
+def amynails(request):
+    return render(request, 'portfolio/amynails.html')
