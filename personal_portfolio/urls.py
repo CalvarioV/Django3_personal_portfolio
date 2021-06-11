@@ -28,7 +28,7 @@ urlpatterns = [
     path('fabis/', views.fabis, name='fabis'),
     #bestbuy guide
     path('bestguide/', include('bestguide.urls')),
-    path('nailsbyamy/', views.amynails, name='amynails'),
+    path('amyloks/', views.amynails, name='amynails'),
 
 
 ]

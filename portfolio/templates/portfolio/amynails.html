@@ -1,20 +1,37 @@
-{% extends 'portfolio/base.html' %}
 {% load static %}
 {% block content %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Amy's Nails</title>
     <style>
         body {
-            background-color:black;
+            background-color:pink;
         }
     </style>
 </head>
 <body>
-<img src="{% static 'portfolio/amysnails.jpg' %}" class="img-fluid" alt="Amy's Nails">
+<script type="text/javascript">{
+    alert('Nails By Amy is under development. -CalvarioV👨🏻‍💻')
+}
+</script>
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-black">
+  <a class="navbar-brand" href="#">
+    <img src="{% static 'portfolio/nailsamyloks.PNG' %}" width="70" height="70" class="d-inline-block align-top" alt="amys nails logo">
+    Amyloks
+  </a>
+</nav>
+
+
+<div class="container">
+<img src="{% static 'portfolio/amysnails2.jpg' %}" class="img-fluid" alt="Amy's Nails">
+
+
+</div>
 </body>
 </html>
 {% endblock %}
