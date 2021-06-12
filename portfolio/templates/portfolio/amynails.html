@@ -1,37 +1,136 @@
 {% load static %}
-{% block content %}
-<!DOCTYPE html>
+<!-- New Html Template -->
+<!doctype html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <meta charset="UTF-8">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Amy's Nails</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Nails by Amyloks</title>
     <style>
         body {
             background-color:pink;
         }
+        .carousel-item {
+            height:32rem;
+            background:#777;
+            color:pink;
+            position:relative;
+            background-position: center;
+            background-size:cover;
+        }
+        .container1 {
+            position:absolute;
+            bottom:0;
+            left:0;
+            right:0;
+            padding-bottom:50px;
+            text-align:center;
+        }
     </style>
-</head>
-<body>
-<script type="text/javascript">{
-    alert('Nails By Amy is under development. -CalvarioV👨🏻‍💻')
-}
-</script>
-<!-- Image and text -->
-<nav class="navbar navbar-light bg-black">
-  <a class="navbar-brand" href="#">
-    <img src="{% static 'portfolio/nailsamyloks.PNG' %}" width="70" height="70" class="d-inline-block align-top" alt="amys nails logo">
-    Amyloks
-  </a>
-</nav>
+  </head>
+
+  <body>
+        <script type="text/javascript">{
+        alert('Nails By Amy is under development. -CalvarioV👨🏻‍💻')
+            }
+        </script>
 
 
-<div class="container">
-<img src="{% static 'portfolio/amysnails2.jpg' %}" class="img-fluid" alt="Amy's Nails">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">
+            <img src="{% static 'portfolio/nailsamyloks.PNG' %}" width="50" height="50" class="d-inline-block align-top" alt="amys nails logo">
+            Amyloks
+          </a>
+        </nav>
+
+        <div class="container">
+            <img src="{% static 'portfolio/amyloksfinalneon.jpg' %}" class="img-fluid">
+        </div>
+
+    <!-- Carousel Take 2 -->
+
+        <div class="container">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
 
 
-</div>
-</body>
+                <div class="carousel-inner">
+                    <!-- 1st slide -->
+                    <div class="carousel-item active" style="background-image:url(/static/portfolio/amysnails2.jpg);">
+                        <div class="container1">
+                            <h1>Ally </h1>
+                            <p>First job done on my sister Ally. She
+                                was super happy with the quality of the
+                                nails and designs.
+                            </p>
+                            <a href="#" class="btn btn-lg btn-danger">
+                                Amyloks
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 2nd slide -->
+                    <div class="carousel-item" style="background-image:url(/static/portfolio/amyloks1.jpg);">
+                        <div class="container1">
+                            <h1>Picture #2</h1>
+                            <p>Just a lil something for
+                                them kids.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- 3rd slide-->
+                    <div class="carousel-item" style="background-image:url(/static/portfolio/amyloks2.jpg);">
+                        <div class="container1">
+                            <h1>Picture #3</h1>
+                            <p>Ok shits getting real now.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
-{% endblock %}
