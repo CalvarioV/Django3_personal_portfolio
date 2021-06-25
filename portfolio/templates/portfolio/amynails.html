@@ -31,27 +31,58 @@
             padding-bottom:50px;
             text-align:center;
         }
+        .moveleft {
+            text-align:left;
+            padding-left:10px;
+        }
     </style>
   </head>
 
   <body>
+
+        <header>
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#"><img src="{% static 'portfolio/nailsamyloks.PNG' %}" width="30" height="30" class="d-inline-block align-top" alt="amys nails logo">Nails by Amyloks</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Appointments <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+
         <script type="text/javascript">{
         alert('Nails By Amy is under development. -CalvarioV👨🏻‍💻')
             }
         </script>
 
 
-        <!-- Navigation Bar -->
+        <!-- Navigation Bar
         <nav class="navbar navbar-dark bg-dark">
           <a class="navbar-brand" href="#">
             <img src="{% static 'portfolio/nailsamyloks.PNG' %}" width="50" height="50" class="d-inline-block align-top" alt="amys nails logo">
             Amyloks
           </a>
         </nav>
+        -->
+<hr>
 
         <div class="container">
             <img src="{% static 'portfolio/amyloksfinalneon.jpg' %}" class="img-fluid">
         </div>
+
 
     <!-- Carousel Take 2 -->
 
@@ -68,25 +99,22 @@
 
                 <div class="carousel-inner">
                     <!-- 1st slide -->
-                    <div class="carousel-item active" style="background-image:url(/static/portfolio/amysnails2.jpg);">
+                    <div class="carousel-item active" style="background-image:url(/static/portfolio/allypurge.jpeg);">
                         <div class="container1">
-                            <h1>Ally </h1>
-                            <p>First job done on my sister Ally. She
-                                was super happy with the quality of the
-                                nails and designs.
+                            <h1>Ally</h1>
+                            <p>Purge Theme
                             </p>
                             <a href="#" class="btn btn-lg btn-danger">
-                                Amyloks
+                                Select
                             </a>
                         </div>
                     </div>
 
                     <!-- 2nd slide -->
                     <div class="carousel-item" style="background-image:url(/static/portfolio/amyloks1.jpg);">
-                        <div class="container1">
-                            <h1>Picture #2</h1>
-                            <p>Just a lil something for
-                                them kids.
+                        <div class="container1 moveleft">
+                            <h1>Aly</h1>
+                            <p>🐰
                             </p>
 
                         </div>
@@ -95,8 +123,8 @@
                     <!-- 3rd slide-->
                     <div class="carousel-item" style="background-image:url(/static/portfolio/amyloks2.jpg);">
                         <div class="container1">
-                            <h1>Picture #3</h1>
-                            <p>Ok shits getting real now.
+                            <h1>Als</h1>
+                            <p>Boujee Kills
                             </p>
 
                         </div>

@@ -28,6 +28,7 @@ urlpatterns = [
     path('fabis/', views.fabis, name='fabis'),
     #bestbuy guide
     path('bestguide/', include('bestguide.urls')),
+    #amys nails page
     path('amyloks/', views.amynails, name='amynails'),
 
 
