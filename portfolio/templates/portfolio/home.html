@@ -2,7 +2,26 @@
 {% load static %}
 {% block content %}
 <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Raleway+Dots&display=swap" rel="stylesheet">
     <title>Home</title>
+    <style>
+        h2, h3 {
+            font-family: 'Yellowtail', cursive;
+        }
+        p {
+            font-family:'Raleway Dots', cursive;
+            background-color: black;
+            color:white;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+
+        }
+    </style>
 
 </head>
 
@@ -54,7 +73,7 @@
       <h2>Ask and you shall receive.</h2>
       <img src="{% static 'portfolio/babygrootnike.jpeg' %}" class="img-fluid mb-2" alt="Baby Groot">
       <div class="w3-panel w3-leftbar w3-light-grey">
-            <p class="w3-xlarge w3-serif"><i>"Therefore I say to you, whatever you pray and ask for, believe that you will receive it, and it will be so for you."</i></p>
+            <span class="w3-xlarge w3-serif"><i>"Therefore I say to you, whatever you pray and ask for, believe that you will receive it, and it will be so for you."</i></span>
             <p><b>Mark 11:24</b></p>
       </div>
   </div>
