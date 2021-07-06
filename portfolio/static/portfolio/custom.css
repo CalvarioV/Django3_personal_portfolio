@@ -64,11 +64,21 @@ footer {
   background-color: #f1f1f1;
 }
 
-.vikfont {
-    font-family: 'Yellowtail', cursive;
-}
 
-h2 {
-    font-family: 'Yellowtail', cursive;
-}
+h2, h3, .vikfont {
+            font-family: 'Yellowtail', cursive !important;
+            color:red;
+        }
 
+p, li {
+    font-family:'Thasadith', sans-serif;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+h1 {
+    font-family:'Cinzel Decorative', cursive !important;
+}
