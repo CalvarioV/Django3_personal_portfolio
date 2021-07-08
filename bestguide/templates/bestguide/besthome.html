@@ -1,10 +1,13 @@
 {% extends 'portfolio/base.html' %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 {% block content %}
 
 <body>
-<h1>Appliance Services and Attachments</h1>
+<img src="{% static 'portfolio/vikabestguide.png' %}" class="img-fluid" alt="BestguideLogo">
+<h1>Appliances</h1>
+<h1>Services and Attachments</h1>
 <hr>
 
 <section>
@@ -118,6 +121,39 @@
         <summary>Attachments</summary>
         <ul>
             <li>Dishwasher install Kit 29.99</li>
+        </ul>
+    </details>
+</section>
+
+<section>
+    <h2>Range Hood</h2>
+    <details>
+        <summary>Services</summary>
+        <ul>
+            <li>Under Cabinet Range Hood 129.99</li>
+            <li>Island or Wallmount 449.99</li>
+        </ul>
+    </details>
+</section>
+
+<section>
+    <h2>Cooktops</h2>
+    <details>
+        <summary>Services</summary>
+        <ul>
+            <li>Install (replacement) 139.99</li>
+            <li>Install w/ Down Draft Venting 0.00</li>
+        </ul>
+    </details>
+</section>
+
+<section>
+    <h2>Wallovens</h2>
+    <details>
+        <summary>Services</summary>
+        <ul>
+            <li>Install Single Built-In Oven 159.99</li>
+            <li>Install Double Built-In Oven and Microwave combo 199.99</li>
         </ul>
     </details>
 </section>
