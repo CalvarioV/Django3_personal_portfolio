@@ -1,0 +1,30 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+    /* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #c0c7d1;
+
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  text-align:center;
+
+
+}
+
+header {
+    padding: 2%;
+    background-color: #c0c7d1;
+}
+
+p {
+    padding:5%;
+    color: blue;
+}
+
+h1 {
+    text-align:center;
+}
