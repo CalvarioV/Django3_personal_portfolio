@@ -83,3 +83,13 @@ p, li {
 h1 {
     font-family:'Cinzel Decorative', cursive !important;
 }
+
+.price {
+    color:green;
+    font-weight:bold;
+}
+
+.sku {
+    color: red;
+    font-weight: 900;
+}
