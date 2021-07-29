@@ -29,7 +29,8 @@ body {
 
 header {
     padding: 2%;
-    background-color: #000000;
+    margin-bottom:10px;
+
 }
 
 p {
@@ -51,9 +52,9 @@ h1 {
   width: 90%;
   height: 20%;
   margin: 5%;
-  margin-top:1%;
+  margin-top:10%;
   padding: 1%;
-  background: #000000;
+
   /*border: 1px black solid; */
 }
 
