@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 body, html {
-    height:130%;
+    height:100%;
+    padding-bottom:35%;
+
 }
 
 .background {
@@ -35,9 +38,15 @@ p {
 h1 {
     position: relative;
     /* top: 160px; */
-    font-family: "Lobster", cursive;
+    font-family: "Bad Script", cursive;
     color: #b50707;
+    font-size:250%;
     text-align: center;
+}
+
+h2, h3 {
+    text-align:center;
+    font-family: "Bad Script", cursive;
 }
 
 .calvario {
@@ -120,11 +129,34 @@ h1 {
   100% {top: 10px; left: 57%; opacity: 0}
 }
 
+.cal4 {
+  left: 25%;
+  -webkit-animation-name: cal4;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes cal4{
+  0% {top: 150px;}
+
+  20% {left: 27%;}
+
+  40% {left: 25%;}
+
+  60% {left: 27%;}
+
+  80% {left: 25%;}
+
+  100% {top: 10px; left: 27%; opacity: 0}
+}
+
 .gcar {
-    width:75%;
+    width:80%;
     height:auto;
-    margin:auto;
-    margin-left:13%;
+
+    margin-left:10%;
+
+
 
 
 }
