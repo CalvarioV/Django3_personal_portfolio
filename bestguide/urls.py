@@ -6,6 +6,7 @@ app_name = 'bestguide'
 urlpatterns = [
     path('', views.besthome, name='besthome'),
     path('testing', views.testing, name='testing'),
+    path('motd', views.motd, name='motd'),
 
 
 ]

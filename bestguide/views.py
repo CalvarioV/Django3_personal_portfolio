@@ -7,4 +7,8 @@ def besthome(request):
 
 
 def testing(request):
+    return render(request, 'bestguide/testing2.html')
+
+
+def motd(request):
     return render(request, 'bestguide/testing.html')

@@ -1,0 +1,28 @@
+body, html {
+    height:100%;
+}
+
+.background {
+  /* the image used  */
+    background:linear-gradient(black, red);
+
+  /* full height  */
+    height:100%;
+
+  /* center and scale the image nicely  */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.vikmes {
+    width:100%;
+    height:50%;
+    border:1px white solid;
+}
+
+p {
+    color:white;
+    text-align:center;
+}
