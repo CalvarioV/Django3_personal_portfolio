@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Bad+Script&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 body, html {
-    height:150%;
-    padding-bottom:35%;
+    height:auto;
+    padding-bottom:auto;
 
 }
 
@@ -38,7 +38,7 @@ p {
 h1 {
     position: relative;
     /* top: 160px; */
-    font-family: "Bad Script", cursive;
+    font-family: "Courgette", cursive;
     color: #b50707;
     font-size:150%;
     text-align: center;
@@ -132,7 +132,7 @@ h2, h3 {
 .cal4 {
   left: 25%;
   -webkit-animation-name: cal4;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
 }
 
@@ -153,8 +153,9 @@ h2, h3 {
 .gcar {
     width:80%;
     height:auto;
-
+    border-radius:15px;
     margin-left:10%;
+
 
 
 
