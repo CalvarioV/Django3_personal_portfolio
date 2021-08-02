@@ -51,7 +51,7 @@ h2, h3 {
 
 .calvario {
   position: relative;
-  width:40%;
+  width:70%;
   margin: auto;
   margin-top:5%;
   padding: 1%;
@@ -151,13 +151,35 @@ h2, h3 {
 }
 
 .gcar {
-    width:80%;
+    width:75%;
     height:auto;
-    border-radius:15px;
-    margin-left:10%;
+    border-radius:10px;
+    margin-left:13%;
+    opacity:90%;
 
+}
 
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+}
 
+p:nth-child(1) a {
+  color: #000000;
+  font-family: "Bad Script";
+  font-size:3em;
+  animation: neon 2s ease-in-out infinite alternate;
+}
 
-
+@keyframes neon {
+  to {
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #1129ff,
+                 0 0 35px #1129ff,
+                 0 0 40px #1129ff,
+                 0 0 50px #1129ff,
+                 0 0 75px #1129ff;
+  }
 }
