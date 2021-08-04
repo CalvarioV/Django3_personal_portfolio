@@ -16,4 +16,4 @@ def amynails(request):
 
 
 def vibes(request):
-    return render(request, 'portfolio/3Dlogo.html')
+    return render(request, 'portfolio/vibes.html')
