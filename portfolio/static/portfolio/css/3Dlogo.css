@@ -11,7 +11,7 @@ body {
 
 .thumb {
     width: 400px;
-    height: 60%;
+    height: 450px;
     margin: 12px auto;
     perspective: 1000px;
 }
@@ -19,7 +19,7 @@ body {
 .thumb a {
     display: block;
     width: 400px;
-    height: 60%;
+    height: 450px;
     margin:0 auto;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(219, 157, 0, 0.4)),
 		url("https://www.vcalvario.com/static/portfolio/CVLogo2.png");
