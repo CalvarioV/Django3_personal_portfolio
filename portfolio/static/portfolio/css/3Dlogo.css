@@ -10,16 +10,16 @@ body {
 }
 
 .thumb {
-    width: auto;
-    height: 85%;
+    width: 400px;
+    height: 60%;
     margin: 12px auto;
     perspective: 1000px;
 }
 
 .thumb a {
     display: block;
-    width: auto;
-    height: 575px;
+    width: 400px;
+    height: 60%;
     margin:0 auto;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(219, 157, 0, 0.4)),
 		url("https://www.vcalvario.com/static/portfolio/CVLogo2.png");
