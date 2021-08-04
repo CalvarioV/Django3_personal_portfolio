@@ -10,15 +10,15 @@ body {
 }
 
 .thumb {
-    width: 600px;
-    height: 700px;
-    margin: 50px auto;
-    perspective: 1600px;
+    width: auto;
+    height: 550px;
+    margin: 100px auto;
+    perspective: 1000px;
 }
 
 .thumb a {
     display: block;
-    width: 100%;
+    width: auto;
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(219, 157, 0, 0.4)),
 		url("https://www.vcalvario.com/static/portfolio/CVLogo2.png");
@@ -45,12 +45,13 @@ body {
     transform-origin: bottom;
 }
 .thumb a span {
-    color: white;
+    color: black;
     text-transform: uppercase;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
+    margin-bottom:5%;
     font: bold 12px/36px "Open Sans";
     text-align: center;
     transform: rotateX(-89.99deg);
