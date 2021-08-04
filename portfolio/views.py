@@ -13,3 +13,7 @@ def fabis(request):
 
 def amynails(request):
     return render(request, 'portfolio/amynails.html')
+
+
+def vibes(request):
+    return render(request, 'portfolio/3Dlogo.html')
