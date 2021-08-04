@@ -12,14 +12,15 @@ body {
 .thumb {
     width: auto;
     height: 85%;
-    margin: 10px auto;
+    margin: 12px auto;
     perspective: 1000px;
 }
 
 .thumb a {
     display: block;
     width: auto;
-    height: 55%;
+    height: 575px;
+    margin:0 auto;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(219, 157, 0, 0.4)),
 		url("https://www.vcalvario.com/static/portfolio/CVLogo2.png");
     background-size: 0, cover;
