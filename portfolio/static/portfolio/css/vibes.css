@@ -39,9 +39,8 @@ p {
     display:block;
     color:red;
     font-size:90%;
-    text-align:center;
     margin:20%;
-    padding:0 30%;
+    text-align:center;
     font-family: 'Zen Dots', cursive;
     letter-spacing:1px;
 }
@@ -49,4 +48,13 @@ p {
 a {
     text-decoration:none;
 
+}
+
+.bubu {
+    display:grid;
+    position:fixed;
+    height:200px;
+    text-align:center;
+    bottom:20px;
+    right:20px;
 }
