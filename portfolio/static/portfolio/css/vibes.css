@@ -34,3 +34,19 @@ p {
     background-position: 500%;
   }
 }
+
+.vika {
+    display:block;
+    color:red;
+    font-size:90%;
+    text-align:center;
+    margin:20%;
+    padding:0 30%;
+    font-family: 'Zen Dots', cursive;
+    letter-spacing:1px;
+}
+
+a {
+    text-decoration:none;
+
+}
