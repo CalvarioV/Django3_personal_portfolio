@@ -4,7 +4,7 @@
 
 <div class="row justify-content-center my-3">
   <div class="col-8">
-    <img src="{% static 'portfolio/myquotecvlogoFinal.jpg' %}" class="img-fluid mb-2" alt="My Profile Pic">
+    <img src="{% static 'portfolio/myquotecvlogoFinal.jpg' %}" class="img-fluid mb-2 round" alt="My Profile Pic">
   </div>
 </div>
 
@@ -33,7 +33,7 @@
 
         {% else %}
 
-        <img src="{{ project.image.url }}" class="img-fluid mb-2" alt="Project Image">
+        <img src="{{ project.image.url }}" class="img-fluid mb-4 round" alt="Project Image">
 
         {% endif %}
 
@@ -46,12 +46,12 @@
 
 
 <div class="row justify-content-center my-3">
-  <div class="col-lg-4 col-md-6">
+  <div class="col-lg-8">
       <h2>Ask and you shall receive.</h2>
-      <img src="{% static 'portfolio/babygrootnike.jpeg' %}" class="img-fluid mb-2" alt="Baby Groot"/>
-      <img src="{% static 'portfolio/images/infiniteintelligencetake2.jpg' %}" class="img-fluid mb-2" alt="infiniti car"/>
+      <img src="{% static 'portfolio/babygrootnike.jpeg' %}" class="img-fluid mb-2 round" alt="Baby Groot"/>
+      <img src="{% static 'portfolio/images/infiniteintelligencetake2.jpg' %}" class="img-fluid mb-2 round" alt="infiniti car"/>
       <div class="w3-panel w3-leftbar w3-light-grey round">
-            <span class="w3-xlarge w3-serif"><i>"Therefore I say to you, whatever you pray and ask for, believe that you will receive it, and it will be so for you."</i></span>
+            <span class="w3-xlarge w3-serif"><i>"Whatever you pray and ask for, believe that you will receive it, and it will be so for you."</i></span>
             <p><b>Mark 11:24</b></p>
       </div>
   </div>
@@ -62,7 +62,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <iframe src="https://www.youtube.com/embed/YiZ05G6LgUM" width="500" height="350"></iframe>
-        <div class="col-lg-4 col-md-6">
+
+        <div class="col-lg-4 col-md-6 webby">
             <button type="button" class="collapsible">Video Highlights</button>
                 <div class="content">
                     <p>
@@ -104,7 +105,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col">
-            <a href="https://www.vcalvario.com"><img src="{% static 'portfolio/images/CVLogo3D.png' %}" class="img-fluid mb-2" width="50%" alt="Logo"/></a>
+            <a href="https://www.vcalvario.com"><img src="{% static 'portfolio/images/CVLogo3D.png' %}" class="img-fluid mb-2 round" width="50%" alt="Logo"/></a>
         </div>
     </div>
 </div>

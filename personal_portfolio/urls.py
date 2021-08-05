@@ -22,7 +22,8 @@ from portfolio import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home'),
+    path('', views.vibes, name='vibes'),
+    path('portfolio', views.home, name='home'),
     path('blog/', include('blog.urls')),
     # mothers day project
     path('fabis/', views.fabis, name='fabis'),
@@ -30,8 +31,8 @@ urlpatterns = [
     path('bestguide/', include('bestguide.urls')),
     #amys nails page
     path('amyloks/', views.amynails, name='amynails'),
-    #vibes page
-    path('vibes/', views.vibes, name='vibes'),
+
+
 
 
 ]
