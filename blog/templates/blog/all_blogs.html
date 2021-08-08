@@ -24,8 +24,8 @@
     <a href="{% url 'blog:detail' post.id %}">
       <h2>{{ post.title }}</h2>
     </a>
-    <h5 class="text-muted">{{ post.created_at|date:'M d Y'|upper }}</h5>
-    <h4>{{ post.description|striptags|truncatechars:100 }}</h4>
+    <h5 class="text-muted amy">{{ post.created_at|date:'M d Y'|upper }}</h5>
+    <h4 class="amy">{{ post.description|striptags|truncatechars:100 }}</h4>
   </div>
 </div>
 
