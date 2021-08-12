@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'portfolio/css/particles.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'portfolio/CVLogo2.png' %}">
+    <title>Particles</title>
+</head>
+<body>
+
+<script src="{% static 'portfolio/js/three.js' %}"></script>
+<script type="text/javascript" src="{% static 'portfolio/js/particles.js' %}"></script>
+<script type="x-shader/x-vertex" id="vertexshader">
+
+  attribute float size;
+  attribute vec3 customColor;
+  varying vec3 vColor;
+
+  void main() {
+
+    vColor = customColor;
+    vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+    gl_PointSize = size * ( 300.0 / -mvPosition.z );
+    gl_Position = projectionMatrix * mvPosition;
+
+  }
+
+</script>
+<script type="x-shader/x-fragment" id="fragmentshader">
+
+ uniform vec3 color;
+ uniform sampler2D pointTexture;
+
+ varying vec3 vColor;
+
+ void main() {
+
+   gl_FragColor = vec4( color * vColor, 1.0 );
+   gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+
+ }
+</script>
+
+<div id="magic"></div>
+<div class="playground">
+  <div class="bottomPosition">
+      <a href="https://www.vcalvario.com" target="_blank"><img src="https://www.vcalvario.com/static/portfolio/CVLogo2.png" width=40px/></a>
+
+        <h1 class="special">Victor Calvario <br><span class="minText">Fullstack Developer && UI/UX designer.</span></h1>
+  </div>
+</div>
+
+</body>
+</html>
