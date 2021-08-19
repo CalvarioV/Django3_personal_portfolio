@@ -7,7 +7,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 50vh;
-  background-color: #000;
+  background:linear-gradient(90deg, #000, #004e92, #000);
+
 }
 
 p {
@@ -18,7 +19,7 @@ p {
   text-align:center;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(90deg, #000, red, #000);
+  background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
   background-size: 85%;
   animation: animate 4s linear infinite;
@@ -37,7 +38,7 @@ p {
 
 .vika {
     display:block;
-    color:red;
+    color:#fff;
     font-size:90%;
     margin:20%;
     text-align:center;

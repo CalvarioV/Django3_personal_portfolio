@@ -1,6 +1,6 @@
 
 .navbar-nav .nav-link {
-    color: steelblue !important;
+    color: red !important;
 }
 
 .navbar-nav .nav-link:hover {
@@ -9,8 +9,8 @@
 
 body {
     font-family: 'Helvetica', sans-serif;
-    background: linear-gradient(transparent, #000000) no-repeat;
-    height:100%; !important
+    background: linear-gradient(#004e92, #000000) no-repeat;
+
 
 }
 
@@ -75,7 +75,8 @@ h2, h3, .vikfont {
 
 p, li, details {
     font-family:'Thasadith', sans-serif;
-    background-color:white;
+    color:white;
+    background-color:transparent;
 
 
 }
@@ -107,3 +108,30 @@ h1 {
     color:white;
     opacity:75%;
 }
+
+.intro{
+    background:linear-gradient(233deg,#e56420, #c22525, #37bbde);
+    background-size:contain;
+    background-blend-mode: hard-light;
+    animation: hue-rotate 3s linear infinite;
+
+
+
+
+}
+
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
