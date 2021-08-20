@@ -80,6 +80,8 @@ p, li, details {
 
 
 }
+
+
 h1 {
     font-family:'Aladin', cursive !important;
 }
@@ -87,11 +89,13 @@ h1 {
 .price {
     color:green;
     font-weight:bold;
+    letter-spacing:0.25em;
 }
 
 .sku {
     color: red;
     font-weight: 900;
+    letter-spacing:0.25em;
 }
 
 .round {
