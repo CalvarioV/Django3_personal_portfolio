@@ -7,6 +7,10 @@
     color: blue !important;
 }
 
+nav a {
+    text-decoration:none;
+}
+
 body {
     font-family: 'Helvetica', sans-serif;
     background: linear-gradient(#004e92, #000000) no-repeat;
@@ -139,3 +143,7 @@ h1 {
   }
 }
 
+.active1 {
+    border:1px solid red;
+    border-radius:15px;
+}

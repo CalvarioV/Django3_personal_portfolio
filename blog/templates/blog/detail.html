@@ -3,6 +3,47 @@
 {% load static %}
 
 {% block content %}
+<nav id="topNav" class="navbar navbar-expand-md navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="{% url 'vibes' %}">
+        <img src="{% static 'portfolio/CVLogo2.png' %}" width="30" height="30" class="d-inline-block align-top" alt="vcalvario logo">
+      </a>
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'vibes' %}">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'bestguide:besthome' %}">BestGuide</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% static 'portfolio/Py4eCer.pdf' %}">Py4e</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% static 'portfolio/Dj4eCer.pdf' %}">Dj4e</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'portfolio' %}" target="_self">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active1" href="{% url 'blog:all_blogs' %}">Blogs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 <div class="amy">
     <h1 class="text-center mt-5" id="blogdetailtitle">{{ post.title }}</h1>
 
