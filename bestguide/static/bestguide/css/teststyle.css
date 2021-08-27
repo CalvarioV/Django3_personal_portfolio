@@ -38,7 +38,7 @@ p {
 h1 {
     position: relative;
     /* top: 160px; */
-    font-family: "Courgette", cursive;
+    font-family: "Courgette", cursive !important;
     color: #b50707;
     font-size:150%;
     text-align: center;
@@ -46,7 +46,8 @@ h1 {
 
 h2, h3 {
     text-align:center;
-    font-family: "Bad Script", cursive;
+    font-family: "Bad Script", cursive !important;
+    color:#000000;
 }
 
 .calvario {
@@ -156,6 +157,7 @@ h2, h3 {
     border-radius:10px;
     margin-left:13%;
     opacity:90%;
+    padding:5px 0;
 
 }
 
