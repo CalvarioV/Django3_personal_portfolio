@@ -11,6 +11,10 @@ nav a {
     text-decoration:none;
 }
 
+html {
+    height:auto;
+}
+
 body {
     font-family: 'Helvetica', sans-serif;
     background: linear-gradient(#004e92, #000000) no-repeat;
@@ -39,7 +43,7 @@ section {
 }
 footer {
   text-align: center;
-  color: steelblue;
+  color: red;
   font-size: 0.750em;
   position: fixed;
   bottom: 0px;
