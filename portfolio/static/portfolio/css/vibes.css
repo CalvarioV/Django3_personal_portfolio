@@ -40,10 +40,10 @@ p {
     display:block;
     color:red;
     font-size:90%;
-    margin:20%;
+    margin:15%;
     text-align:center;
     font-family: 'Zen Dots', cursive;
-    letter-spacing:1px;
+    letter-spacing:20px;
 }
 
 a {
@@ -53,12 +53,13 @@ a {
 
 
 .bubu {
-    display:grid;
+    display:inline-flex;
     position:fixed;
-    height:80px;
+    height:30px;
     text-align:center;
-    bottom:15px;
-    right:19px;
+    bottom:25px;
+    right: 15px;
+
 }
 
 .clik {
