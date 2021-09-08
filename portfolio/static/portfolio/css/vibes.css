@@ -55,10 +55,10 @@ a {
 .bubu {
     display:grid;
     position:fixed;
-    height:200px;
+    height:80px;
     text-align:center;
-    bottom:20px;
-    right:20px;
+    bottom:15px;
+    right:19px;
 }
 
 .clik {
