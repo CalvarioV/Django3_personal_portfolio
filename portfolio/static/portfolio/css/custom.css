@@ -119,6 +119,10 @@ h1 {
     border:1px red solid;
 }
 
+.flipped {
+    transform:scaleX(-1);
+}
+
 .webby {
     margin:20px auto;
 }
