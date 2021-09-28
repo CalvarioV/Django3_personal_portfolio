@@ -140,7 +140,7 @@ h1 {
     background:linear-gradient(233deg,#e56420, #c22525, #37bbde);
     background-size:contain;
     background-blend-mode: hard-light;
-    animation: hue-rotate 3s linear infinite;
+    animation: hue-rotate 5s linear infinite;
 
 
 
