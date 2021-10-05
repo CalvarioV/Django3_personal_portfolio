@@ -60,26 +60,28 @@ footer {
 }
 
 .collapsible {
-  background-color: steelblue;
+  background-color: red;
   color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
-  text-align: left;
+  border: 1px white solid;
+  text-align: center;
   outline: none;
   font-size: 15px;
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #212529;
+  text-align:center;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  color:white;
+  background-color: #000000;
 }
 
 
