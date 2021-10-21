@@ -21,3 +21,7 @@ def vibes(request):
 
 def particles(request):
     return render(request, 'portfolio/particles.html')
+
+
+def about(request):
+    return render(request, 'portfolio/about.html')

@@ -31,8 +31,10 @@ urlpatterns = [
     path('bestguide/', include('bestguide.urls')),
     #amys nails page
     path('amyloks/', views.amynails, name='amynails'),
+    #javascript bs
     path('cool/', views.particles, name='particles'),
-
+    #2nd portfolio page
+    path('about/', views.about, name='about'),
 
 
 
