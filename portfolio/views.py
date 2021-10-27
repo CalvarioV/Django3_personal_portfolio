@@ -16,7 +16,7 @@ def amynails(request):
 
 
 def vibes(request):
-    return render(request, 'portfolio/vibes.html')
+    return render(request, 'portfolio/about.html')
 
 
 def particles(request):
@@ -24,4 +24,4 @@ def particles(request):
 
 
 def about(request):
-    return render(request, 'portfolio/about.html')
+    return render(request, 'portfolio/vibes.html')
