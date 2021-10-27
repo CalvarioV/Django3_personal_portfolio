@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Freelancer v7.0.5 (https://startbootstrap.com/theme/freelancer)
@@ -11360,9 +11364,13 @@ html {
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  border: #2c3e50 1px solid;
 }
 #mainNav .navbar-brand {
   color: #fff;
+  text-align:center;
+  font-size:1.25rem;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -11439,9 +11447,11 @@ html {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  font-family:'Aclonica', sans-serif;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-family:'Zen Kurenaido', sans-serif;
 }
 .masthead .masthead-avatar {
   width: 15rem;
