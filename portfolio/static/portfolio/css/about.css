@@ -11533,12 +11533,14 @@ html {
 
   position: relative;
   animation-name: movida;
-  animation-duration: 7s;
+  -webkit-animation-duration: 7s;
+  animation-duration:7s;
+  -webkit-animation-delay: 2s;
   animation-delay: 2s;
   animation-iteration-count:10;
 }
 
-@keyframes movida {
+@-webkit-keyframes movida {
   0%   {left:0px; top:0px;}
   25%  {left:30px; top:-50px;}
   50%  {left:0px; top:-50px;}
