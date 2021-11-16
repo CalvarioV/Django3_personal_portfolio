@@ -11371,7 +11371,7 @@ html {
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  border: #2c3e50 1px solid;
+  border: #000000 2px solid;
 }
 #mainNav .navbar-brand {
   color: #fff;
@@ -11452,7 +11452,7 @@ html {
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
+  font-size: 2.25rem;
   line-height: 2.75rem;
   font-family:'Aclonica', sans-serif;
 }
@@ -11461,7 +11461,7 @@ html {
   font-family:'Zen Kurenaido', sans-serif;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 20rem;
 }
 
 @media (min-width: 992px) {
