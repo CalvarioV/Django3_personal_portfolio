@@ -35,6 +35,7 @@ urlpatterns = [
     path('cool/', views.particles, name='particles'),
     #2nd portfolio page
     path('about/', views.about, name='about'),
+    path('resume', views.resume, name='resume')
 
 
 

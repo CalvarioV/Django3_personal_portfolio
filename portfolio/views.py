@@ -25,3 +25,7 @@ def particles(request):
 
 def about(request):
     return render(request, 'portfolio/vibes.html')
+
+
+def resume(request):
+    return render(request, 'portfolio/resume.html')
