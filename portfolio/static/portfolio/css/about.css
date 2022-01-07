@@ -498,6 +498,7 @@ progress {
   font-size: 1.25rem;
   font-weight: 300;
   font-family:'Zen Kurenaido', sans-serif;
+  text-shadow: 2px 2px 15px #000000;
 }
 
 .display-1 {
@@ -11374,7 +11375,7 @@ html {
   border: #000000 2px solid;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: red;
   text-align:center;
   font-size:1rem;
   font-family: 'Zen Kurenaido', sans-serif;
@@ -11548,3 +11549,6 @@ html {
   100% {left:0px; top:0px;}
 }
 
+header p {
+    color:red;
+}
