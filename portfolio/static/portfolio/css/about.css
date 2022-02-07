@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&family=Megrim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 
@@ -11378,7 +11378,7 @@ html {
   color: red;
   text-align:center;
   font-size:1rem;
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-family: 'Megrim', sans-serif;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -11571,5 +11571,5 @@ header p {
 }
 
 section.padi {
-    padding-top:20%;
+    padding-top:25%;
 }

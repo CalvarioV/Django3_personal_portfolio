@@ -9,10 +9,10 @@
     <meta name="description" content="Victor Calvario. Universal Vibes. A place of infinite possibilities and alternate realities."/>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">-->
 
 <!--    <link rel="stylesheet" href="{% static 'portfolio/css/custom.css' %}">-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
     <link rel="stylesheet" href="{% static 'portfolio/css/about.css' %}" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@
 <nav class="navbar navbar-expand-xl bg-primary text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <img style="margin:0 5px;" src="https://www.vcalvario.com/static/portfolio/images/cvlogo3.png" width="60" height="60" alt="logo"/>
-                <a class="navbar-brand" style="margin:0 0 0 5px" href="#">Projects</a>
+                <a class="navbar-brand" style="margin:0 0 0 5px" href="{% url 'vibes' %}">Diamond Dream<br />Visionaries &trade;</a>
 
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
@@ -53,10 +53,11 @@
             </div>
         </nav>
 
-<div class="container text-center">
+<section class="padi container text-center">
+
 {% block content %}{% endblock %}
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</div>
+</section>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
