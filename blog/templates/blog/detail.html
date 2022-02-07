@@ -5,12 +5,12 @@
 {% block content %}
 
 
-<div class="amy">
-    <h1 class="text-center mt-5" id="blogdetailtitle">{{ post.title }}</h1>
+<div class="masthead">
+    <h1 class="text-center" id="blogdetailtitle">{{ post.title }}</h1>
 
     <h5 class="text-center text-muted mb-5">{{ post.created_at|date:'F jS Y' }}</h5>
 
-    {{ post.description|safe }}
+    <div class="masthead-subheading">{{ post.description|safe }}</div>
 
 </div>
 

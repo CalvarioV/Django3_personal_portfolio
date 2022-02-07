@@ -6,80 +6,16 @@
     <link rel="icon" type="image/png" href="{% static 'portfolio/CVLogo2.png' %}">
 </head>
 {% block content %}
-
-<!-- ORIGINAL NAvigation BAr-->
-
-<!--<nav id="topNav" class="navbar navbar-expand-md navbar-dark">-->
-<!--    <div class="container">-->
-<!--      <a class="navbar-brand" href="{% url 'vibes' %}">-->
-<!--        <img src="{% static 'portfolio/images/cvlogo3.png' %}" width="60" height="60" class="d-inline-block align-top" alt="vcalvario logo">-->
-<!--      </a>-->
-
-
-<!--      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--        <span class="navbar-toggler-icon"></span>-->
-<!--      </button>-->
-<!--      <div class="collapse navbar-collapse text-center" id="navbarNav">-->
-<!--        <ul class="navbar-nav ml-auto">-->
-
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link" href="{% url 'vibes' %}">Home</a>-->
-<!--          </li>-->
-
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link active1" href="{% url 'bestguide:besthome' %}">BestGuide</a>-->
-<!--          </li>-->
-
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link" href="{% static 'portfolio/Py4eCer.pdf' %}">Py4e</a>-->
-<!--          </li>-->
-
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link" href="{% static 'portfolio/Dj4eCer.pdf' %}">Dj4e</a>-->
-<!--          </li>-->
-
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link" href="{% url 'portfolio' %}" target="_self">Portfolio</a>-->
-<!--          </li>-->
-
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link" href="{% url 'blog:all_blogs' %}">Blogs</a>-->
-<!--          </li>-->
-<!--        </ul>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </nav>-->
-
-
-<!-- Navigation-->
-<!--        <nav class="navbar navbar-expand-xl bg-primary text-uppercase fixed-top" id="mainNav">-->
-<!--            <div class="container">-->
-<!--                <img style="margin:0 5px;" src="https://www.vcalvario.com/static/portfolio/images/cvlogo3.png" width="60" height="60" alt="logo"/>-->
-<!--                <a class="navbar-brand" style="margin:0 0 0 5px" href="{% url 'vibes' %}">Diamond Dream<br />Visionaries &trade;</a>-->
-
-<!--                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--                    Menu-->
-<!--                    <i class="fas fa-bars"></i>-->
-<!--                </button>-->
-<!--                <div class="collapse navbar-collapse" id="navbarResponsive">-->
-<!--                    <ul class="navbar-nav ms-auto">-->
-
-<!--                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'vibes' %}">Home</a></li>-->
-<!--                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'blog:all_blogs' %}">Blogs</a></li>-->
-<!--                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'resume' %}">Resume</a></li>-->
-
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </nav>-->
-
+<div class="masthead">
+<h1>Appliances Sales Guide</h1>
 <br>
-<img src="{% static 'portfolio/vikabestguide.png' %}" class="img-fluid intro round" style="width:75%; margin-top:20%;" alt="BestguideLogo">
+
+<img src="{% static 'portfolio/vikabestguide.png' %}" class="img-fluid intro round" style="width:75%;" alt="BestguideLogo">
 <hr>
-<h1>Appliances</h1>
 <h1>Services and Attachments</h1>
 <hr>
 
+    <div class="masthead-subheading">
 <section>
     <h2>Refrigerator</h2>
     <details>
@@ -234,6 +170,171 @@
         </ul>
     </details>
 </section>
+
+
+</div>
+
+
+</div>
+
+<!--<div class="masthead-subheading">-->
+<!--<section>-->
+<!--    <h2>Refrigerator</h2>-->
+<!--    <details>-->
+<!--        <summary>Services</summary>-->
+<!--        <ul>-->
+<!--            <li>Advanced install and New Water Line Supply<br><em class="price">$134.99</em>| <span class="sku">SKU:3533705</span> </li>-->
+<!--            <li>Basic install(water kit required)<br><em class="price">$0.00</em>| <span class="sku">SKU:5246604</span></li>-->
+<!--            <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>-->
+<!--            <li>Refrigerator door hinge reversal<br><em class="price">$0.00</em>| <span class="sku">SKU:6014300</span></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--    <details>-->
+<!--        <summary>Attachments</summary>-->
+<!--        <ul>-->
+<!--            <li>Water Kit 6ft.<br><em class="price">$29.99</em>| <span class="sku">SKU:9089657</span> </li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--    <h2>Range</h2>-->
+<!--    <details>-->
+<!--        <summary>Services</summary>-->
+<!--        <ul>-->
+<!--            <li>Advanced gas regulated install<br><em class="price">$139.99</em>| <span class="sku">SKU:3822812</span></li>-->
+<!--            <li>Basic Gas freestanding range install NONREG(gas kit required)<br><em class="price">$19.99</em>| <span class="sku">SKU:5246602</span></li>-->
+<!--            <li>Basic Electric freestanding range install(power cord required)<br><em class="price">$0.00</em>| <span class="sku">SKU:5246502</span></li>-->
+<!--            <li>Install for slide in range<br><em class="price">$149.99</em>| <span class="sku">SKU:5357598</span></li>-->
+<!--            <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>-->
+
+<!--        </ul>-->
+<!--    </details>-->
+<!--    <details>-->
+<!--        <summary>Attachments</summary>-->
+<!--        <ul>-->
+<!--            <li>Gas Kit(Gas Range)<br><em class="price">$32.99</em>| <span class="sku">SKU:5771329</span></li>-->
+<!--            <li>Power Cord(Electric Range)<br><em class="price">$27.99</em>| <span class="sku">SKU:8929671</span></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+
+<!--</section>-->
+
+<!--<section>-->
+<!--    <h2>Washer</h2>-->
+<!--    <details>-->
+<!--        <summary>Services</summary>-->
+<!--        <ul>-->
+<!--            <li>Basic install(water kit required)<br><em class="price">$0.00</em>| <span class="sku">SKU:5246401</span></li>-->
+<!--            <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>-->
+<!--            <li>2nd Floor installs should have drain pan in place before installation</li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--    <details>-->
+<!--        <summary>Attachments</summary>-->
+<!--        <ul>-->
+<!--            <li>Water Kit 6ft.<br><em class="price">$29.99</em>| <span class="sku">SKU:5446387</span></li>-->
+<!--            <li>Stacking Kit Price and SKU varies on brand and unit</li>-->
+<!--            <li>Pedestals Price and SKU varies on brand and unit</li>-->
+
+<!--        </ul>-->
+<!--    </details>-->
+<!--</section>-->
+
+
+<!--<section>-->
+<!--    <h2>Dryer</h2>-->
+<!--    <details>-->
+<!--        <summary>Services</summary>-->
+<!--        <ul>-->
+<!--            <li>Advanced gas regulated install<br><em class="price">$139.99</em>| <span class="sku">SKU:5361400</span></li>-->
+<!--            <li>Basic install gas NONREG(gas kit required)<br><em class="price">$19.99</em>| <span class="sku">SKU:5246503</span></li>-->
+<!--            <li>Electric install(power cord required)<br><em class="price">$0.00</em>| <span class="sku">SKU:?</span></li>-->
+<!--            <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>-->
+<!--            <li>Dryer hinge reversal<br><em class="price">$0.00</em>| <span class="sku">SKU:6014600</span></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--    <details>-->
+<!--        <summary>Attachments</summary>-->
+<!--        <ul>-->
+<!--            <li>Gas line(gas dryer)<br><em class="price">$31.99</em>| <span class="sku">SKU:5770014</span></li>-->
+<!--            <li>Vent Kit(always included)<br><em class="price">$26.99</em>| <span class="sku">SKU:9282812</span></li>-->
+<!--            <li>Power cord(electric dryer)<br><em class="price">$29.99</em>| <span class="sku">SKU:8930357</span></li>-->
+<!--            <li>Steam kit(steam function only)<br><em class="price">$26.99</em>| <span class="sku">SKU:3762114</span></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--    <h2>OTR Microwave</h2>-->
+<!--    <details>-->
+<!--        <summary>Services</summary>-->
+<!--        <ul>-->
+<!--            <li>Install(replacement OTR TO OTR)<br><em class="price">$119.99</em>| <span class="sku">SKU:3533689</span></li>-->
+<!--            <li>New install(HOOD TO OTR)<br><em class="price">$199.99</em>| <span class="sku">SKU:3581895</span></li>-->
+<!--            <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>-->
+<!--            <li>Trim kit must be looked up manually for specific unit.</li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--    <h2>Dishwasher</h2>-->
+<!--    <details>-->
+<!--        <summary>Services</summary>-->
+<!--        <ul>-->
+<!--            <li>Install(replacement)<br><em class="price">$149.99</em>| <span class="sku">SKU:3793069</span></li>-->
+<!--            <li>Install with disposal<br><em class="price">$199.99</em>| <span class="sku">SKU:3653629</span></li>-->
+<!--            <li>Install Garbage Disposal<br><em class="price">$119.99</em>| <span class="sku">SKU:3797485</span></li>-->
+<!--            <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--    <details>-->
+<!--        <summary>Attachments</summary>-->
+<!--        <ul>-->
+<!--            <li>Dishwasher install Kit(includes power cord and water kit)<br><em class="price">$29.99</em>| <span class="sku">SKU:5146600</span></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--    <h2>Range Hood</h2>-->
+<!--    <details>-->
+<!--        <summary>Services</summary>-->
+<!--        <ul>-->
+<!--            <li>Under Cabinet Range Hood<br><em class="price">$129.99</em>| <span class="sku">SKU:3581868</span></li>-->
+<!--            <li>Island or Wallmount<br><em class="price">$449.99</em>| <span class="sku">SKU:5222600</span></li>-->
+<!--            <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--    <h2>Cooktops</h2>-->
+<!--    <details>-->
+<!--        <summary>Services</summary>-->
+<!--        <ul>-->
+<!--            <li>Install(replacement)<br><em class="price">$139.99</em>| <span class="sku">SKU:4001225</span></li>-->
+<!--            <li>Install w/ Down Draft Venting<br><em class="price">$0.00</em>| <span class="sku">SKU:6641752</span></li>-->
+<!--            <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--    <h2>Wallovens</h2>-->
+<!--    <details>-->
+<!--        <summary>Services</summary>-->
+<!--        <ul>-->
+<!--            <li>Install Single Built-In Oven<br><em class="price">$159.99</em>| <span class="sku">SKU:5357455</span></li>-->
+<!--            <li>Install Double Built-In Oven and Microwave combo<br><em class="price">$199.99</em>| <span class="sku">SKU:4001207</span></li>-->
+<!--            <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>-->
+<!--        </ul>-->
+<!--    </details>-->
+<!--</section>-->
+
+
+<!--</div>-->
 
 <hr>
 

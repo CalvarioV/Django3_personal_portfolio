@@ -8,25 +8,9 @@
 
 </head>
 
-<!--<nav class="navbar navbar-expand-xl bg-primary text-uppercase fixed-top" id="mainNav">-->
-<!--            <div class="container">-->
-<!--                <img style="margin:0 5px;" src="https://www.vcalvario.com/static/portfolio/images/cvlogo3.png" width="60" height="60" alt="logo"/>-->
-<!--                <a class="navbar-brand" style="margin:0 0 0 5px" href="{% url 'vibes' %}">Diamond Dream<br />Visionaries &trade;</a>-->
+<div class="masthead">
 
-<!--                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--                    Menu-->
-<!--                    <i class="fas fa-bars"></i>-->
-<!--                </button>-->
-<!--                <div class="collapse navbar-collapse" id="navbarResponsive">-->
-<!--                    <ul class="navbar-nav ms-auto">-->
-
-<!--                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'resume' %}">Resume</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </nav>-->
-
-<h1 id="blogtitle" class="font-weight-bold text-center">Blogs</h1>
+  <h1 id="blogtitle" class="font-weight-bold text-center">Blogs</h1>
 <hr>
 
 
@@ -41,13 +25,14 @@
       <h2>{{ post.title }}</h2>
     </a>
     <h5 class="text-muted amy">{{ post.created_at|date:'M d Y'|upper }}</h5>
-    <h4 class="amy">{{ post.description|striptags|truncatechars:100 }}</h4>
+    <h4 class="amy">{{ post.description|striptags|truncatechars:30 }}</h4>
   </div>
+</div>
+{% endfor %}
+
+{% endblock %}
 </div>
 
 
 
 
-{% endfor %}
-
-{% endblock %}
