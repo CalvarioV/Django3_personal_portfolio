@@ -11552,3 +11552,24 @@ html {
 header p {
     color:red;
 }
+
+.price {
+    color:green;
+    font-weight:bold;
+    letter-spacing:0.25em;
+}
+
+.sku {
+    color: red;
+    font-weight: 900;
+    letter-spacing:0.25em;
+}
+
+.round {
+    border-radius:15px;
+    border:1px red solid;
+}
+
+section.padi {
+    padding-top:20%;
+}
