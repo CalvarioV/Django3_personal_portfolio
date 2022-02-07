@@ -11,15 +11,15 @@ body {
 
 }
 
-p {
+.grads {
   position: relative;
-  font-family: 'Aladin', cursive;
+  font-family: 'Megrim', cursive;
   text-transform: uppercase;
   font-size: 90%;
   text-align:center;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(90deg, #000, #004e92, #fff);
+  background: linear-gradient(45deg, #FF0000, #0df0dd, #004e92);
   background-repeat: no-repeat;
   background-size: 85%;
   animation: animate 5s linear infinite;
