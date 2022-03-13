@@ -28,12 +28,10 @@ body, html {
   /* The image used */
   background-image: url("https://www.vcalvario.com/static/portfolio/assets/img/retrologoanimation.gif");
 
-  /* Add the blur effect
+ /* adding a dope ass blur effect */
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
 
-  filter: blur(8px)
-  -webkit-filter: blur(8px)
-
-*/
 
 
   /* Full height */
@@ -50,14 +48,14 @@ body, html {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
   color: white;
-  border: 1px solid red;
+  border: 10px groove #2d3e50;
   border-radius:20px;
   position: relative;
   top: 1%;
   z-index: 2;
   width: 90%;
   height:auto;
-  margin-top:10rem;
+  margin-top:8rem;
   margin-left:auto;
   margin-right:auto;
   padding: 20px;
@@ -70,7 +68,7 @@ body, html {
 
 <body class="blog-image">
 
-<nav class="navbar navbar-expand-xl text-uppercase fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-xl text-uppercase" id="mainNav">
             <div class="container">
                 <img style="margin:0 5px;" src="https://www.vcalvario.com/static/portfolio/images/cvlogo3.png" width="60" height="60" alt="logo"/>
                 <a class="navbar-brand" style="margin:0 0 0 5px" href="{% url 'vibes' %}">Diamond Dream<br />Visionaries &trade;</a>
