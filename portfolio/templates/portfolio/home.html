@@ -61,32 +61,7 @@
 <h2 class="mt-5">Portfolio</h2>
 <hr>
 
-<div class="row justify-content-around">
 
-    {% for project in projects %}
-
-    <div class="col-lg-4 col-md-6">
-
-        <h3>{{ project.title }}</h3>
-
-
-        {% if project.url %}
-        <a href="{{ project.url }}">
-            <img src="{{ project.image.url }}" class="img-fluid mb-2" alt="Project Image">
-        </a>
-
-        {% else %}
-
-        <img src="{{ project.image.url }}" class="img-fluid mb-4 round" alt="Project Image">
-
-        {% endif %}
-
-        <p>{{ project.description }}</p>
-
-    </div>
-
-{% endfor %}
-</div>
 
 
 <div class="row justify-content-center my-3">

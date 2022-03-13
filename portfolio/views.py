@@ -4,19 +4,21 @@ from django.http import HttpResponse
 
 
 def home(request):
-    projects = Project.objects.all()
-    return render(request, 'portfolio/home.html', {'projects': projects})
+
+    return render(request, 'portfolio/home.html')
 
 
 def fabis(request):
     return render(request, 'portfolio/fabis.html')
+
 
 def amynails(request):
     return render(request, 'portfolio/amynails.html')
 
 
 def vibes(request):
-    return render(request, 'portfolio/about.html')
+    projects = Project.objects.all()
+    return render(request, 'portfolio/about.html', {'projects': projects})
 
 
 def particles(request):
