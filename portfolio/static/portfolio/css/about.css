@@ -217,7 +217,7 @@ strong {
 }
 
 small, .small {
-  font-size: 0.875em;
+  font-size: 0.675em;
 }
 
 mark, .mark {
@@ -6545,9 +6545,12 @@ textarea.form-control-lg {
 .fixed-bottom {
   position: fixed;
   right: 0;
+  display: block;
   bottom: 0;
   left: 0;
   z-index: 1030;
+  height:20px;
+
 }
 
 .sticky-top {
@@ -11343,14 +11346,14 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50;
+  color: #f00;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff;
+  color: #f00;
 }
 
 .btn-xl {
