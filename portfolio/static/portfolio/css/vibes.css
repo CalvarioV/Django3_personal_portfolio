@@ -11,6 +11,16 @@ body {
 
 }
 
+p.coming-soon-text {
+    font-family:"Zen Loop", cursive;
+    font-size:8vw;
+}
+
+div.img-border {
+    border: 2px solid #1b252f;
+    border-radius: 5px;
+}
+
 .grads {
   position: relative;
   font-family: 'Megrim', cursive;
@@ -19,7 +29,7 @@ body {
   text-align:center;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(45deg, #FF0000, #0df0dd, #004e92);
+  background: linear-gradient(45deg, #FF0000, #212529, #004e92);
   background-repeat: no-repeat;
   background-size: 85%;
   animation: animate 5s linear infinite;
@@ -92,6 +102,7 @@ div.neonbody {
     transparent 13px
   );
 }
+
 
 div.neonbody > div {
     font-size: 6vw;
