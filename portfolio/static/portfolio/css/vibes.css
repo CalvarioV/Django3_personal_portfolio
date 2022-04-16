@@ -7,7 +7,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background:linear-gradient(90deg, #000, #3c4877, #000);
+  background:linear-gradient(180deg, #000, #1a252f, #000);
 
 }
 
@@ -15,7 +15,7 @@ body {
   position: relative;
   font-family: 'Megrim', cursive;
   text-transform: uppercase;
-  font-size: 90%;
+  font-size: 6vw;
   text-align:center;
   letter-spacing: 4px;
   overflow: hidden;
@@ -67,5 +67,56 @@ a {
   padding: 14px 25px;
 
   text-decoration: none;
+
+}
+
+div.neonbody {
+    font-family: 'Megrim';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: #1b252f 2px solid;
+  border-radius:5px;
+  height: 100%;
+  padding: 30px;
+  margin: 30px;
+  box-sizing: border-box;
+  background: #03111f;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 7px,
+    rgba(0, 0, 0, 0.8) 9px,
+    rgba(0, 0, 0, 0.8) 13px,
+    transparent 13px
+  );
+}
+
+div.neonbody > div {
+    font-size: 6vw;
+  font-weight: 100;
+  color: #d4eaff;
+  text-shadow: 0 0 0 transparent, 0 0 10px #2695ff, 0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff, 0 0 200px #2695ff, 0 0 300px #2695ff, 0 0 500px #2695ff;
+  animation: blink 2s infinite alternate;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0.8;
+  }
+  53% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0.2;
+  }
+  56% {
+    opacity: 1;
+  }
+}
 
 }
