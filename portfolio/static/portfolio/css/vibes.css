@@ -99,17 +99,22 @@ div.neonbody {
 }
 
 
-div.neonbody > div {
+div.neonbody div {
     font-size: 6vw;
   font-weight: 100;
   color: #26fffd;
+  display:flex;
   text-shadow: 0 0 0 transparent, 0 0 10px #2695ff, 0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff, 0 0 200px #2695ff, 0 0 300px #2695ff, 0 0 500px #2695ff;
-  animation: blink 2s infinite alternate;
+
+}
+
+div.neontext {
+    animation: blink 2s infinite alternate;
 }
 
 @keyframes blink {
   50% {
-    opacity: 1;
+    opacity: 0;
   }
   52% {
     opacity: 0.8;
