@@ -11,7 +11,7 @@ body {
 
 }
 
-p.coming-soon-text {
+div.coming-soon-text {
     font-family:"Zen Loop", cursive;
     font-size:8vw;
 }
