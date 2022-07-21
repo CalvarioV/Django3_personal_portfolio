@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&family=Megrim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Amatic+SC:wght@700&display=swap');
 
 @charset "UTF-8";
 /*!
@@ -11310,7 +11310,7 @@ html {
 .page-section {
   padding: 6rem 0;
   padding-top: 0;
-  background-color:black;
+
   color:white;
 }
 .page-section .page-section-heading {
@@ -11600,4 +11600,51 @@ section.padi {
     background-size:cover;
 
 
+}
+
+.calvariobg {
+    display:block;
+    background-image: url("https://calvariov.pythonanywhere.com/site/subfolder/brickwall_4_bedroom_noise.jpg");
+  background-size:contain;
+  background-position:center;
+  backdrop-filter:contrast(190%);
+    -webkit-backdrop-filter:contrast(190%);
+}
+
+.calvariomsg {
+    display:block;
+    background-color:rgba(0,0,0,0.4);
+    position:relative;
+    height:80vh;
+}
+
+.calneon {
+    font-weight: 200;
+    font-family:"Amatic SC";
+
+    border-radius:10px;
+    font-size:5vh;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow:
+        0 0 3px #000,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #0ff,
+        0 0 80px #0ff,
+        0 0 90px blue,
+        0 0 200px #0ff,
+        0 0 350px #0ff,
+        0 0 400px #0ff;
+}
+
+
+
+.caltainer {
+    position:relative;
+    margin: 0 auto;
+    top:25%;
+    padding:5rem 0;
 }
