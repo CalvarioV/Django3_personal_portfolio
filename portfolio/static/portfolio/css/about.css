@@ -11648,3 +11648,7 @@ section.padi {
     top:25%;
     padding:5rem 0;
 }
+
+.calroundborder {
+    border-radius: 50em;
+}
