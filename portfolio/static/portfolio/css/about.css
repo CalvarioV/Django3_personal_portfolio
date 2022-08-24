@@ -11623,7 +11623,7 @@ section.padi {
     font-family:"Amatic SC";
 
     border-radius:10px;
-    font-size:5vh;
+    font-size:4vh;
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
@@ -11635,9 +11635,9 @@ section.padi {
         0 0 40px #0ff,
         0 0 80px #0ff,
         0 0 90px blue,
-        0 0 200px #0ff,
-        0 0 350px #0ff,
-        0 0 400px #0ff;
+        0 0 120px #0ff,
+        0 0 150px #0ff,
+        0 0 200px #0ff;
 }
 
 
@@ -11651,4 +11651,5 @@ section.padi {
 
 .calroundborder {
     border-radius: 50em;
+    border: 1px #450101 solid;
 }
