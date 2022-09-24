@@ -11653,3 +11653,24 @@ section.padi {
     border-radius: 50em;
     border: 1px #450101 solid;
 }
+
+.intro{
+
+    animation: hue-rotate 5s linear infinite;
+
+}
+
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
