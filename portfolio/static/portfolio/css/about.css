@@ -11616,6 +11616,7 @@ section.padi {
     background-color:rgba(0,0,0,0.4);
     position:relative;
     height:80vh;
+    backdrop-filter:blur(4px);
 }
 
 .calneon {
@@ -11623,7 +11624,7 @@ section.padi {
     font-family:"Amatic SC";
 
     border-radius:10px;
-    font-size:4vh;
+    font-size:2vh;
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
@@ -11656,7 +11657,7 @@ section.padi {
 
 .intro{
 
-    animation: hue-rotate 3s linear infinite;
+    animation: hue-rotate 2s linear infinite;
 
 }
 
