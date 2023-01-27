@@ -11615,17 +11615,19 @@ section.padi {
     display:block;
     background-color:rgba(0,0,0,0.4);
     position:relative;
-    height:80vh;
-    backdrop-filter:blur(4px);
+    height:auto;
+
 }
 
 .calneon {
     font-weight: 200;
     font-family:"Amatic SC";
+    -webkit-backdrop-filter:blur(4px);
+    backdrop-filter:blur(4px);
 
     border-radius:10px;
-    font-size:2vh;
-    padding: 10px;
+    font-size:4vw;
+    padding: 5px;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
@@ -11647,7 +11649,8 @@ section.padi {
     position:relative;
     margin: 0 auto;
     top:25%;
-    padding:5rem 0;
+    padding:3rem 0;
+
 }
 
 .calroundborder {
@@ -11658,6 +11661,11 @@ section.padi {
 .intro{
 
     animation: hue-rotate 2s linear infinite;
+
+}
+
+.outro {
+    filter:grayscale(80%);
 
 }
 
