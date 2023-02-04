@@ -11624,6 +11624,7 @@ section.padi {
     font-family:"Amatic SC";
     -webkit-backdrop-filter:blur(4px);
     backdrop-filter:blur(4px);
+    overflow:hidden;
 
     border-radius:10px;
     font-size:4vw;
