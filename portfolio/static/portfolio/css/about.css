@@ -11622,26 +11622,20 @@ section.padi {
 .calneon {
     font-weight: 200;
     font-family:"Amatic SC";
-    -webkit-backdrop-filter:blur(4px);
-    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter:blur(3px);
+    backdrop-filter:blur(3px);
     overflow:hidden;
 
-    border-radius:10px;
-    font-size:4vw;
-    padding: 5px;
+    border-radius:20px;
+    font-size:5vw;
+    padding: 10px;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
     text-shadow:
         0 0 3px #000,
         0 0 10px #fff,
-        0 0 20px #fff,
-        0 0 40px #0ff,
-        0 0 80px #0ff,
-        0 0 90px blue,
-        0 0 120px #0ff,
-        0 0 150px #0ff,
-        0 0 200px #0ff;
+        0 0 10px #fff;
 }
 
 
@@ -11649,6 +11643,7 @@ section.padi {
 .caltainer {
     position:relative;
     margin: 0 auto;
+    width:60%;
     top:25%;
     padding:3rem 0;
 
