@@ -11347,7 +11347,7 @@ html {
 }
 .divider-custom .divider-custom-icon {
   color: #f00;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
@@ -11588,7 +11588,7 @@ section.padi {
   position: absolute;
   top:0;
   left: 0;
-  border:1px red solid;
+  border:4px #ffffff outset;
   width: 100%;
   height: 100%;
 }
@@ -11650,8 +11650,8 @@ section.padi {
 }
 
 .calroundborder {
-    border-radius: 50em;
-    border: 1px #450101 solid;
+    border-radius: 4em;
+    border: 4px #ffffff outset;
 }
 
 .intro{
