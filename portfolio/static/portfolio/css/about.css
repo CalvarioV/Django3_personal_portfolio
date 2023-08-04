@@ -11374,7 +11374,7 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Megrim", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   border: #000000 2px solid;
 }
@@ -11691,6 +11691,21 @@ section.padi {
   height: 100%;
   justify-content: center;
   text-align:center;
+}
+
+.about-section > h1 {
+  /* Your styles for h1 tags inside the .container */
+  color: rgb(255, 0, 0);
+  font-family:'Megrim', sans serif;
+  /* Add more styles as needed */
+}
+
+.about-section > p {
+  /* Your styles for p tags inside the .container */
+  color: rgb(255, 255, 255);
+  font-family: 'Zen Kurenaido', sans-serif;
+  margin-top: 15%;
+  /* Add more styles as needed */
 }
 
 /* Style each section */
