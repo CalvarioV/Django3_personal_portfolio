@@ -45,3 +45,7 @@ def about(request):
 
 def resume(request):
     return render(request, 'portfolio/resume.html')
+
+
+def vboard(request):
+    return render(request, 'portfolio/vboard.html')

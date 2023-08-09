@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vision Board</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Megrim&family=Smokum&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 30px;
+    font-family: "Megrim", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68,70,84);
+  }
+  .vision-board {
+    width: 75vw;
+    height: 70vh;
+    display: grid;
+    padding: 30px 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15%;
+
+  }
+
+
+.vision-board img {
+  opacity: .45;
+  width:100%;
+  filter: blur(8px); /* Apply initial blur filter to images */
+    transition: filter 0.3s;
+}
+
+  .card {
+    border: 1px dashed rgba(255, 0, 0, 0.0);
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+
+    color: rgb(68,70,84);
+    transform: rotate(.07turn);
+    transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;;
+  }
+
+  .card:hover {
+    transform: scale(2.75);
+    color:red;
+    margin:20% 0;
+    background-color: rgba(0, 0, 0, 1);
+      z-index: 2;
+    box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.5);
+    transform: translate(20px, 20%);
+  }
+
+.vision-board img:hover {
+  opacity: 1;
+  transform:scale(1.15,1.15);
+  margin-bottom:20px;
+  border:2px double red;
+  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.5);
+  filter: blur(0px); /* Apply initial blur filter to images */
+    transition: filter 0.3s;
+}
+
+.title {
+  position: fixed;
+  color: white;
+  top: 2%;
+  display: block;
+  padding-bottom: 20px;
+}
+
+/* Responsive styles for mobile devices */
+  @media (max-width: 855px) {
+    .vision-board {
+      width: 55%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .vision-board img {
+      margin-top:25px;
+  opacity: .45;
+}
+
+  .card {
+/*     border: 1px dashed rgba(0, 0, 0, 0.25); */
+    color: rgba(0,0,0,0);
+    text-align: center;
+    padding: 1px;
+    transform: rotate(.07turn);
+    transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;;
+  }
+  .card:hover {
+    transform: scale(1.25,1.25);
+    color:red;
+    padding:0 0;
+    background-color: rgba(0, 0, 0, 1);
+      z-index: 2;
+  }
+
+.vision-board img:hover {
+  opacity: 1;
+  margin:20px 0;
+  display:block;
+}
+
+.title {
+  position: fixed ;
+  color: white;
+  top:2%;
+  display:block;
+  margin-bottom:;
+}
+
+}
+
+  </style>
+
+</head>
+
+<body>
+  <div class="title"><h1>Calvario's Vision Board</h1></div>
+  <div class="vision-board">
+    <div class="card">
+      <h2>Dream Car</h2>
+      <img src="https://tsportline.com/cdn/shop/articles/satin-black-tesla-model-x-22-inch-forged-wheels-imperial-red-mx118-wm-1_71e1044a-b8e9-4b07-84f1-95ec11f55c79_1280x.jpg?v=1536618778" alt="Dream Car">
+
+      <p>Tesla Model X</p>
+      <small>$119,240</small>
+    </div>
+
+    <!-- Add more cards as needed -->
+    <div class="card">
+      <h2>Dream House</h2>
+      <img src="https://images.wsj.net/im-544601/?width=2000&" alt="Dream House">
+
+      <p>{ The One }<br>(Belair Mega Mansion)</p>
+      <small>$500,000,000</small>
+    </div>
+
+    <div class="card">
+      <h2>Dream Job</h2>
+      <img src="https://cleancommit.io/static/4210533edc0ecaa67e1c734e159da855/30f07/website-programmer-resized.jpg" alt="Dream Job">
+
+      <p>Senior Fullstack Web Developer</p>
+      <small>$197,612 /yr</small>
+    </div>
+
+    <div class="card">
+      <h2>Family Dream</h2>
+      <img src="https://exec.mit.edu/file-asset/FAM_stock_image?v=1" alt="Family Dream">
+
+      <p>To Start the Calvario Empire</p>
+      <small>Pass down wealth to future generations.</small>
+    </div>
+
+    <div class="card">
+      <h2>Dream Marriage</h2>
+      <img src="https://www.doughroller.net/wp-content/uploads/2023/03/B7NFHT7ANZFDJNEWGH6VMCL2JY.jpg" alt="Dream Marriage">
+
+      <p>Meet my soulmate, fall in love, marry her,</p>
+      <small>And have the most beautiful and smart children.</small>
+    </div>
+
+    <div class="card">
+      <h2>Dream Goal</h2>
+      <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/mrbeast-money.jpg" alt="Dream Goal">
+
+      <p>Become the first Calvario Billionaire</p>
+      <small>By contributing in the creation of a website that will help inspire and motivate millions, generate a passive income that will earn billions and give back to those in need.</small>
+    </div>
+
+
+
+
+  </div>
+  <hr>
+  <hr>
+</body>

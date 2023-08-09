@@ -26,16 +26,17 @@ urlpatterns = [
     path('portfolio/', views.home, name='portfolio'),
     path('blog/', include('blog.urls')),
     # mothers day project
-    path('fabis/', views.fabis, name='fabis'),
+    # path('fabis/', views.fabis, name='fabis'),
     #bestbuy guide
     path('bestguide/', include('bestguide.urls')),
     #amys nails page
-    path('amyloks/', views.amynails, name='amynails'),
+    # path('amyloks/', views.amynails, name='amynails'),
     #javascript bs
     path('cool/', views.particles, name='particles'),
     #2nd portfolio page
     path('about/', views.about, name='about'),
-    path('resume/', views.resume, name='resume')
+    path('resume/', views.resume, name='resume'),
+    path('vboard/', views.vboard, name='vboard'),
 
 
 
