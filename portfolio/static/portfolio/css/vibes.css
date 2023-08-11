@@ -31,8 +31,8 @@ div.img-border {
   overflow: hidden;
   background: linear-gradient(45deg, #FF0000, #212529, #004e92);
   background-repeat: no-repeat;
-  background-size: 85%;
-  animation: animate 5s linear infinite;
+  background-size: 81%;
+  animation: animate 6s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
