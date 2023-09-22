@@ -11379,7 +11379,7 @@ html {
   border: #000000 2px solid;
 }
 #mainNav .navbar-brand {
-  color: red;
+  color: #60d2da;
   text-align:center;
   font-size:1rem;
   font-family: 'Megrim', sans-serif;
@@ -11554,7 +11554,7 @@ html {
 }
 
 header p {
-    color:red;
+    color:#60d2da;
 }
 
 .price {
@@ -11695,7 +11695,7 @@ section.padi {
 
 .about-section > h1 {
   /* Your styles for h1 tags inside the .container */
-  color: rgb(255, 0, 0);
+  color: #60d2da;
   font-family:'Megrim', sans serif;
   /* Add more styles as needed */
 }
