@@ -5,15 +5,12 @@ from django.http import HttpResponse
 
 fortuneList = [
     "Your dreams are the key to unlocking your true potential.",
-    "In your visions, you will find the path to success.",
     "Diamonds are a symbol of your inner strength and resilience.",
     "The universe has great things in store for you. Trust the journey.",
     "Your dreams are the stars guiding your destiny.",
-    "Visions hold the secrets to your heart's desires.",
-    "Like a diamond, you shine bright in any situation.",
     "The universe conspires to bring you closer to your dreams.",
     "Your visions are the bridge between imagination and reality.",
-    "In the vastness of the universe, your purpose awaits.",
+    "The magic you're looking for, is in the work you're avoiding.",
 ]
 
 def home(request):
