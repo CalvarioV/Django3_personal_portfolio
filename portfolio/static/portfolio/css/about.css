@@ -11346,7 +11346,7 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #f00;
+  color: #60d2da;
   font-size: 3rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -11740,4 +11740,10 @@ input[type="radio"]:checked + .about-section {
 
 input[type="radio"] {
   display: none;
+}
+
+
+.court {
+    font-family: 'Aclonica', sans-serif;
+    color: white;
 }
