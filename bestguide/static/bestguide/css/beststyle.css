@@ -1,135 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster');
-
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-}
-
-    /* Add a gray background color and some padding to the footer */
-footer {
-  /*background-color: #000000;*/
-
-  position:fixed;
-  bottom:0px;
-  width:100%;
-  text-align:center;
-  margin: 2px;
-  padding: 2px;
-  display: inline-block;
-
-
-}
-
+/* Basic styles for the page */
 body {
-    background: linear-gradient(black, red);
-    height: 100%;
-    margin-bottom:1000px;
-}
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align:center;
+    background-color: #fff;
 
-
-header {
-    padding: 2%;
-    margin-bottom:10px;
-
-}
-
-p {
-    padding:2%;
-    margin:1%;
-    color: blue;
 }
 
 h1 {
-    position: relative;
-    /* top: 160px; */
-    font-family: "Lobster", cursive;
-    color: #b50707;
-    text-align: center;
+  color: #000;
+  font-family: cursive;
+  text-shadow: 3px 4px 8px rgba(0, 0, 0, 0.7);
 }
 
-.calvario {
-  position: relative;
-  width: 90%;
-  height: 20%;
-  margin: 5%;
-  margin-top:10%;
-  padding: 1%;
+/* Style for h3 tags */
+h3 {
+    /* Font and color */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
 
-  /*border: 1px black solid; */
+    /* Text effects */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Increase letter spacing for emphasis */
+
+    /* Gradients */
+    background: linear-gradient(to bottom, red, #000);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    /* Shadow */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    /* Transition */
+    transition: color 0.3s, text-shadow 0.3s; /* Smooth transition for hover effect */
 }
 
-.cal {
-  position: relative;
-  top: 200px;
-  color: #de4747;
+/* Hover effect */
+h3:hover {
+    color: #f06; /* Change color on hover */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5); /* Increase shadow effect on hover */
 }
 
-.cal1 {
-  left: 45%;
-  -webkit-animation-name: cal1;
-  -webkit-animation-duration: 5s;
-  -webkit-animation-iteration-count: infinite;
+small {
+  font-weight: bold;
 }
 
-@-webkit-keyframes cal1{
-  0% {top: 150px;}
-  10% {left: 47%;}
-  20% {left: 45%;}
-  30% {left: 47%;}
-  40% {left: 45%;}
-  50% {left: 47%;}
-  60% {left: 45%;}
-  70% {left: 47%;}
-  80% {left: 45%;}
-  90% {left: 47%;}
-  100% {top: 10px; left: 45%; opacity: 0}
+details {
+  margin: 10px 0;
+        }
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+        }
+
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
 }
 
-.cal2 {
-  left: 35%;
-  -webkit-animation-name: cal2;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
+footer img {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
 }
 
-@-webkit-keyframes cal2{
-  0% {top: 150px;}
 
-  20% {left: 33%;}
 
-  40% {left: 35%;}
-
-  60% {left: 33%;}
-
-  80% {left: 35%;}
-
-  100% {top: 10px; left: 33%; opacity: 0}
+/* Card container styles */
+.card-container {
+    display: grid;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Maximum width for the container */
+    justify-content: center;
 }
 
-.cal3 {
-  left: 55%;
-  -webkit-animation-name: cal3;
-  -webkit-animation-duration: 7s;
-  -webkit-animation-iteration-count: infinite;
+/* Card styles */
+.card {
+    text-align:center;
+    background: radial-gradient(#fff, #363333);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.7);
 }
 
-@-webkit-keyframes cal3{
-  0% {top: 150px;}
-
-  20% {left: 57%;}
-
-  40% {left: 55%;}
-
-  60% {left: 57%;}
-
-  80% {left: 55%;}
-
-  100% {top: 10px; left: 57%; opacity: 0}
+.card h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
 }
 
-.gcar {
-    width:75%;
-    height:auto;
-    margin-left:13%;
-    margin-top:10%;
+.card p {
+    margin: 5px 0;
+}
+
+.card .rating {
+    display: ;
+    align-items: center;
+}
+
+.card .rating span {
+    margin-right: 5px;
+    color: #3075e1;
+}
+
+.sony {
+
+}
+
+/* Responsive design using CSS Grid */
+/* Larger screens: 3 cards per row */
+@media (min-width: 1024px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Medium screens: 2 cards per row */
+@media (min-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Smaller screens: 1 card per row */
+@media (max-width: 767px) {
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* Default styling for the stars */
+.stars .star {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: scale(0.2); /* Start with smaller scale */
+}
+
+/* Highlighted stars */
+.stars .star.highlighted {
+    color: gold;
+}
+
+/* Scaling effect when a star is in view */
+.stars .star.visible {
+    transform: scale(3.5); /* Scale up to larger size */
 }

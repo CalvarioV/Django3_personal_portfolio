@@ -1,209 +1,316 @@
-{% extends 'portfolio/base.html' %}
+
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-{% block content %}
+
 <head>
-    <link rel="icon" type="image/png" href="{% static 'portfolio/CVLogo2.png' %}">
-    <style>
-        body {
-            background:linear-gradient(180deg, #000, #1a252f, #000);
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony Montana</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="/static/bestguide/css/beststyle.css">
 </head>
 
-<div class="masthead text-white">
-<h1>Appliances Sales Guide</h1>
-<br>
 
-<img src="{% static 'portfolio/vikabestguide.png' %}" class="img-fluid intro round" style="width:75%;" alt="BestguideLogo">
-<hr>
-<h1>Services and Attachments</h1>
-<hr>
 
-    <div class="masthead-subheading">
-        <div class="row pb-4 mb-4">
-            <section class="col">
-            <h2>Refrigerator</h2>
+<body>
+    <h1>TV Guide</h1>
+<!-- Sony Section    -->
+  <section class="sony">
+    <h2>Sony Tvs</h2>
+  <details>
+    <summary>Models</summary>
+    <div class="card-container">
+        <!-- Card 1: Model A95L -->
+        <div class="card">
+            <h3>Sony TV Model A95L</h3>
+          <p><small>Resolution/Type: </small><em>4K/OLED</em></p>
+          <p><small>Native Motion: </small><em>120Hz</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>2 (4)</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>0 (2)</em></p>
+          <p><small>Smart OS: </small><em>Google TV</em></p>
+          <p><small>Size/Price:  </small>
             <details>
-                <summary>Services</summary>
-                <ul>
-                    <li>Advanced install and New Water Line Supply<br><em class="price">$134.99</em>| <span class="sku">SKU:3533705</span> </li>
-                    <li>Basic install(water kit required)<br><em class="price">$0.00</em>| <span class="sku">SKU:5246604</span></li>
-                    <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>
-                    <li>Refrigerator door hinge reversal<br><em class="price">$0.00</em>| <span class="sku">SKU:6014300</span></li>
-                </ul>
+              <summary><small>Details</small></summary>
+              <p><a href="https://www.bestbuy.com/site/sony-55-class-bravia-xr-a95l-oled-4k-uhd-smart-google-tv/6553384.p?skuId=6553384" target="_blank">Check Promos</a></p>
+              <p><em>55 | 2799.99</em></p>
+              <p><em>65 | 3499.99</em></p>
+              <p><em>77 | 4999.99</em></p>
             </details>
-            <details>
-                <summary>Attachments</summary>
-                <ul>
-                    <li>Water Kit 6ft.<br><em class="price">$29.99</em>| <span class="sku">SKU:9089657</span> </li>
-                </ul>
-            </details>
-        </section>
+          </p>
+            <div class="rating">
+                <span>💎💎💎</span> <!-- 5-star rating -->
+                <span>3/5</span>
+            </div>
 
-            <section class="col">
-                <h2>Range</h2>
-                <details>
-                    <summary>Services</summary>
-                    <ul>
-                        <li>Advanced gas regulated install<br><em class="price">$139.99</em>| <span class="sku">SKU:3822812</span></li>
-                        <li>Basic Gas freestanding range install NONREG(gas kit required)<br><em class="price">$19.99</em>| <span class="sku">SKU:5246602</span></li>
-                        <li>Basic Electric freestanding range install(power cord required)<br><em class="price">$0.00</em>| <span class="sku">SKU:5246502</span></li>
-                        <li>Install for slide in range<br><em class="price">$149.99</em>| <span class="sku">SKU:5357598</span></li>
-                        <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>
 
-                    </ul>
-                </details>
-                <details>
-                    <summary>Attachments</summary>
-                    <ul>
-                        <li>Gas Kit(Gas Range)<br><em class="price">$32.99</em>| <span class="sku">SKU:5771329</span></li>
-                        <li>Power Cord(Electric Range)<br><em class="price">$27.99</em>| <span class="sku">SKU:8929671</span></li>
-                    </ul>
-                </details>
 
-            </section>
+
 
         </div>
 
-
-        <div class="row pb-4 mb-4">
-            <section class="col">
-                <h2>Washer</h2>
-                <details>
-                    <summary>Services</summary>
-                    <ul>
-                        <li>Basic install(water kit required)<br><em class="price">$0.00</em>| <span class="sku">SKU:5246401</span></li>
-                        <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>
-                        <li>2nd Floor installs should have drain pan in place before installation</li>
-                    </ul>
-                </details>
-                <details>
-                    <summary>Attachments</summary>
-                    <ul>
-                        <li>Water Kit 6ft.<br><em class="price">$29.99</em>| <span class="sku">SKU:5446387</span></li>
-                        <li>Stacking Kit Price and SKU varies on brand and unit</li>
-                        <li>Pedestals Price and SKU varies on brand and unit</li>
-
-                    </ul>
-                </details>
-            </section>
-
-
-            <section class="col">
-            <h2>Dryer</h2>
+        <!-- Card 2: Model A90K -->
+        <div class="card">
+            <h3>Sony TV Model A90K</h3>
+          <p><small>Resolution/Type: </small><em>4K/OLED</em></p>
+          <p><small>Native Motion: </small><em>120Hz</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>2 (4)</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>0 (2)</em></p>
+          <p><small>Smart OS: </small><em>Google TV</em></p>
+          <p><small>Size/Price:  </small>
             <details>
-                <summary>Services</summary>
-                <ul>
-                    <li>Advanced gas regulated install<br><em class="price">$139.99</em>| <span class="sku">SKU:5361400</span></li>
-                    <li>Basic install gas NONREG(gas kit required)<br><em class="price">$19.99</em>| <span class="sku">SKU:5246503</span></li>
-                    <li>Electric install(power cord required)<br><em class="price">$0.00</em>| <span class="sku">SKU:?</span></li>
-                    <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>
-                    <li>Dryer hinge reversal<br><em class="price">$0.00</em>| <span class="sku">SKU:6014600</span></li>
-                </ul>
+              <summary><small>Details</small></summary>
+              <p><em>42 | 1299.99</em></p>
+              <p><em>48 | 1399.99</em></p>
             </details>
-            <details>
-                <summary>Attachments</summary>
-                <ul>
-                    <li>Gas line(gas dryer)<br><em class="price">$31.99</em>| <span class="sku">SKU:5770014</span></li>
-                    <li>Vent Kit(always included)<br><em class="price">$26.99</em>| <span class="sku">SKU:9282812</span></li>
-                    <li>Power cord(electric dryer)<br><em class="price">$29.99</em>| <span class="sku">SKU:8930357</span></li>
-                    <li>Steam kit(steam function only)<br><em class="price">$26.99</em>| <span class="sku">SKU:3762114</span></li>
-                </ul>
-            </details>
-        </section>
-
+          </p>
+            <div class="rating">
+                <span>💎💎💎</span> <!-- 5-star rating -->
+                <span>3/5</span>
+            </div>
         </div>
 
+        <!-- Add more cards for other models here -->
 
-        <div class="row pb-4 mb-4">
-            <section class="col">
-            <h2>OTR Microwave</h2>
+         <!-- Card 3: Model A80L -->
+        <div class="card">
+            <h3>Sony TV Model A80L</h3>
+          <p><small>Resolution/Type: </small><em>4K/OLED</em></p>
+          <p><small>Native Motion: </small><em>120Hz</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>2 (4)</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>0 (2)</em></p>
+          <p><small>Smart OS: </small><em>Google TV</em></p>
+          <p><small>Size/Price:  </small>
             <details>
-                <summary>Services</summary>
-                <ul>
-                    <li>Install(replacement OTR TO OTR)<br><em class="price">$119.99</em>| <span class="sku">SKU:3533689</span></li>
-                    <li>New install(HOOD TO OTR)<br><em class="price">$199.99</em>| <span class="sku">SKU:3581895</span></li>
-                    <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>
-                    <li>Trim kit must be looked up manually for specific unit.</li>
-                </ul>
+              <summary><small>Details</small></summary>
+              <p><em>55 | 1699.99</em></p>
+              <p><em>65 | 2299.99</em></p>
+              <p><em>77 | 2999.99</em></p>
+              <p><em>83 | 4799.99</em></p>
             </details>
-        </section>
-
-            <section class="col">
-            <h2>Dishwasher</h2>
-            <details>
-                <summary>Services</summary>
-                <ul>
-                    <li>Install(replacement)<br><em class="price">$149.99</em>| <span class="sku">SKU:3793069</span></li>
-                    <li>Install with disposal<br><em class="price">$199.99</em>| <span class="sku">SKU:3653629</span></li>
-                    <li>Install Garbage Disposal<br><em class="price">$119.99</em>| <span class="sku">SKU:3797485</span></li>
-                    <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>
-                </ul>
-            </details>
-            <details>
-                <summary>Attachments</summary>
-                <ul>
-                    <li>Dishwasher install Kit(includes power cord and water kit)<br><em class="price">$29.99</em>| <span class="sku">SKU:5146600</span></li>
-                </ul>
-            </details>
-        </section>
-
+          </p>
+            <div class="rating">
+                <span>💎💎💎💎💎</span> <!-- 5-star rating -->
+                <span>5/5</span>
+            </div>
         </div>
 
-
-
-        <div class="row pb-4 mb-4">
-            <section class="col">
-            <h2>Range Hood</h2>
+      <!-- Card 4: Model A75L -->
+        <div class="card">
+            <h3>Sony TV Model A75L</h3>
+          <p><small>Resolution/Type: </small><em>4K/OLED</em></p>
+          <p><small>Native Motion: </small><em>120Hz</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>2 (4)</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>0 (2)</em></p>
+          <p><small>Smart OS: </small><em>Google TV</em></p>
+          <p><small>Size/Price:  </small>
             <details>
-                <summary>Services</summary>
-                <ul>
-                    <li>Under Cabinet Range Hood<br><em class="price">$129.99</em>| <span class="sku">SKU:3581868</span></li>
-                    <li>Island or Wallmount<br><em class="price">$449.99</em>| <span class="sku">SKU:5222600</span></li>
-                    <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>
-                </ul>
+              <summary><small>Details</small></summary>
+              <p><em>55 | 1599.99</em></p>
+              <p><em>65 | 1999.99</em></p>
             </details>
-        </section>
-
-            <section class="col">
-            <h2>Cooktops</h2>
-            <details>
-                <summary>Services</summary>
-                <ul>
-                    <li>Install(replacement)<br><em class="price">$139.99</em>| <span class="sku">SKU:4001225</span></li>
-                    <li>Install w/ Down Draft Venting<br><em class="price">$0.00</em>| <span class="sku">SKU:6641752</span></li>
-                    <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>
-                </ul>
-            </details>
-        </section>
-
+          </p>
+            <div class="rating">
+                <span>💎💎💎💎💎</span> <!-- 5-star rating -->
+                <span>5/5</span>
+            </div>
         </div>
 
-
-
-        <section class="pb-4 mb-4">
-            <h2>Wallovens</h2>
+      <!-- Card 5: Model X93L -->
+        <div class="card">
+            <h3>Sony TV Model X93L</h3>
+          <p><small>Resolution/Type: </small><em>4K/MINI LED</em></p>
+          <p><small>Native Motion: </small><em>120Hz</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>2 (4)</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>0 (2)</em></p>
+          <p><small>Smart OS: </small><em>Google TV</em></p>
+          <p><small>Size/Price:  </small>
             <details>
-                <summary>Services</summary>
-                <ul>
-                    <li>Install Single Built-In Oven<br><em class="price">$159.99</em>| <span class="sku">SKU:5357455</span></li>
-                    <li>Install Double Built-In Oven and Microwave combo<br><em class="price">$199.99</em>| <span class="sku">SKU:4001207</span></li>
-                    <li>Haul Away(1 for 1)<br><em class="price">$29.99</em>| <span class="sku">SKU:5445800</span></li>
-                </ul>
+              <summary><small>Details</small></summary>
+              <p><em>65 | 1799.99</em></p>
+              <p><em>75 | 2799.99</em></p>
+              <p><em>85 | 3799.99</em></p>
             </details>
-        </section>
+          </p>
+            <div class="rating">
+                <span>💎💎💎💎💎</span> <!-- 5-star rating -->
+                <span>5/5</span>
+            </div>
+        </div>
+
+    </div>
+  </details>
+  </section>
+
+<!-- Samsung Section    -->
+  <section class="samsung">
+    <h2>Samsung Tvs</h2>
+  <details>
+    <summary>Models</summary>
+    <div class="card-container">
+        <!-- Card 1: Model 1 -->
+        <div class="card">
+            <h3>TV Model</h3>
+          <p><small>Resolution/Type: </small><em>coming soon</em></p>
+          <p><small>Native Motion: </small><em>coming soon</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>coming soon</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>coming soon</em></p>
+          <p><small>Smart OS: </small><em>coming soon</em></p>
+          <p><small>Size/Price:  </small>
+            <details>
+              <summary><small>Details</small></summary>
+              <p><em>55 | 2799.99</em></p>
+              <p><em>65 | 3499.99</em></p>
+              <p><em>77 | 4999.99</em></p>
+            </details>
+          </p>
+            <div class="rating">
+                <span>💎💎💎💎💎</span> <!-- 5-star rating -->
+                <span>5/5</span>
+            </div>
+        </div>
+
+        <!-- Card 2: Model 2 -->
+        <div class="card">
+            <h3>TV Model</h3>
+          <p><small>Resolution/Type: </small><em>coming soon</em></p>
+          <p><small>Native Motion: </small><em>coming soon</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>coming soon</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>coming soon</em></p>
+          <p><small>Smart OS: </small><em>coming soon</em></p>
+          <p><small>Size/Price:  </small>
+            <details>
+              <summary><small>Details</small></summary>
+              <p><em>55 | 2799.99</em></p>
+              <p><em>65 | 3499.99</em></p>
+              <p><em>77 | 4999.99</em></p>
+            </details>
+          </p>
+            <div class="rating">
+                <span>💎💎💎💎💎</span> <!-- 5-star rating -->
+                <span>5/5</span>
+            </div>
+        </div>
+
+        <!-- Card 3: Model 3 -->
+        <div class="card">
+            <h3>TV Model</h3>
+          <p><small>Resolution/Type: </small><em>coming soon</em></p>
+          <p><small>Native Motion: </small><em>coming soon</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>coming soon</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>coming soon</em></p>
+          <p><small>Smart OS: </small><em>coming soon</em></p>
+          <p><small>Size/Price:  </small>
+            <details>
+              <summary><small>Details</small></summary>
+              <p><em>55 | 2799.99</em></p>
+              <p><em>65 | 3499.99</em></p>
+              <p><em>77 | 4999.99</em></p>
+            </details>
+          </p>
+            <div class="rating">
+                <span>💎💎💎💎💎</span> <!-- 5-star rating -->
+                <span>5/5</span>
+            </div>
+        </div>
 
 
     </div>
+  </details>
+  </section>
+
+<!-- Lg Section    -->
+  <section class="lg">
+    <h2>Lg Tvs</h2>
+  <details>
+    <summary>Models</summary>
+    <div class="card-container">
+        <!-- Card 1: Model 1 -->
+        <div class="card">
+            <h3>TV Model</h3>
+          <p><small>Resolution/Type: </small><em>coming soon</em></p>
+          <p><small>Native Motion: </small><em>coming soon</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>coming soon</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>coming soon</em></p>
+          <p><small>Smart OS: </small><em>coming soon</em></p>
+          <p><small>Size/Price:  </small>
+            <details>
+              <summary><small>Details</small></summary>
+              <p><em>55 | 2799.99</em></p>
+              <p><em>65 | 3499.99</em></p>
+              <p><em>77 | 4999.99</em></p>
+            </details>
+          </p>
+            <div class="rating">
+                <span>💎💎💎💎💎</span> <!-- 5-star rating -->
+                <span>5/5</span>
+            </div>
+        </div>
+
+        <!-- Card 2: Model 2 -->
+        <div class="card">
+            <h3>TV Model</h3>
+          <p><small>Resolution/Type: </small><em>coming soon</em></p>
+          <p><small>Native Motion: </small><em>coming soon</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>coming soon</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>coming soon</em></p>
+          <p><small>Smart OS: </small><em>coming soon</em></p>
+          <p><small>Size/Price:  </small>
+            <details>
+              <summary><small>Details</small></summary>
+              <p><em>55 | 2799.99</em></p>
+              <p><em>65 | 3499.99</em></p>
+              <p><em>77 | 4999.99</em></p>
+            </details>
+          </p>
+            <div class="rating">
+                <span>💎💎💎💎💎</span> <!-- 5-star rating -->
+                <span>5/5</span>
+            </div>
+        </div>
+
+        <!-- Card 3: Model 3 -->
+        <div class="card">
+            <h3>TV Model</h3>
+          <p><small>Resolution/Type: </small><em>coming soon</em></p>
+          <p><small>Native Motion: </small><em>coming soon</em></p>
+          <p><small>HDMI 2.1 Inputs(Total): </small><em>coming soon</em></p>
+          <p><small>USB 3.0 Ports(Total): </small><em>coming soon</em></p>
+          <p><small>Smart OS: </small><em>coming soon</em></p>
+          <p><small>Size/Price:  </small>
+            <details>
+              <summary><small>Details</small></summary>
+              <p><em>55 | 2799.99</em></p>
+              <p><em>65 | 3499.99</em></p>
+              <p><em>77 | 4999.99</em></p>
+            </details>
+          </p>
+            <div class="rating">
+                <span>💎💎💎💎💎</span> <!-- 5-star rating -->
+                <span>5/5</span>
+            </div>
+        </div>
 
 
-</div>
+    </div>
+  </details>
+  </section>
 
 
-<hr>
 
 
-{% endblock %}
+
+
+
+</body>
+
+<footer>
+  <a href="{% url 'about' %}">
+    <img src="https://www.vcalvario.com/static/portfolio/images/LogoFinalForever.png" alt="projects">
+  </a>
+</footer>
+
+
+
 </html>

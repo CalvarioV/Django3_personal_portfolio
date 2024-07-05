@@ -5543,7 +5543,7 @@ textarea.form-control-lg {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: rgba(0,0,0,0.55);
   background-clip: padding-box;
   border: 0.125rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
@@ -5568,7 +5568,7 @@ textarea.form-control-lg {
 
 .modal-header {
   display: flex;
-  background-color:steelblue;
+  background-color:rgba(96,210,218,0.75);
   flex-shrink: 0;
   align-items: center;
   justify-content: space-between;
@@ -5589,7 +5589,7 @@ textarea.form-control-lg {
 
 .modal-body {
   position: relative;
-  background-color:#000000;
+
   flex: 1 1 auto;
   padding: 1rem;
 }
