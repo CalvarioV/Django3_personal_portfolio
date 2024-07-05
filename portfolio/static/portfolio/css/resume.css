@@ -23,6 +23,11 @@ body.dark-mode {
   text-align: center;
 }
 
+body.dark-mode .image-container img {
+    filter:invert(1);
+
+}
+
 body.dark-mode .container {
   background-color: rgba(0, 0, 0, 0.75);
 }
@@ -154,4 +159,22 @@ footer img {
     background-color: #60d2da;
     border-radius: 10px;
     transition: width 5s ease-in-out;
+}
+
+
+.image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            max-width: 1000px; /* Optional: Set a max-width for the container to control the maximum size */
+            margin: 0 auto; /* Center the container horizontally if it has a max-width */
+            padding: 20px; /* Optional: Add some padding */
+        }
+
+        /* Style the image to be responsive */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove bottom space for images */
 }
