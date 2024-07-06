@@ -23,6 +23,14 @@ body.dark-mode {
   text-align: center;
 }
 
+a:visited {
+    color: red;
+}
+
+body.dark-mode a:visited {
+            color: 60d2da; /* Color for visited links */
+        }
+
 body.dark-mode .image-container img {
     filter:invert(1);
 
