@@ -6,8 +6,8 @@ from django.http import HttpResponse
 fortuneList = [
     "Your dreams are the key to unlocking your true potential.",
     "Diamonds are a symbol of your inner strength and resilience.",
-    "The universe has great things in store for you. Trust the journey.",
-    "Your dreams are the stars guiding your destiny.",
+    "The universe has great things in store for you. Trust and Enjoy the journey.",
+    "This is the sign you've been searching for. Everything is aligning itself for you.",
     "The universe conspires to bring you closer to your dreams.",
     "Your visions are the bridge between imagination and reality.",
     "The magic you're looking for, is in the work you're avoiding.",
