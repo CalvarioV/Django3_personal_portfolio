@@ -4,13 +4,13 @@ window.addEventListener('load', function() {
   var minimumTimeElapsed = false;
   var pageFullyLoaded = false;
 
-  // Set a timeout for 3 seconds
+  // Set a timeout for 10 seconds
   setTimeout(function() {
     minimumTimeElapsed = true;
     if (pageFullyLoaded) {
       loader.style.display = 'none';
     }
-  }, 3000);
+  }, 10000);
 
   // Check if page is fully loaded
   pageFullyLoaded = true;
