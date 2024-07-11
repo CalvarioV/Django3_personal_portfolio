@@ -11771,8 +11771,8 @@ input[type="radio"] {
 .spinner {
   width: 50px;
   height: 50px;
-  border: 2px double #60d2da;
-  border-bottom: 1px solid #ffffff;
+  border: 3px double #60d2da;
+  border-bottom: 2px solid #ffffff;
   border-radius: 50%;
   background-image: url('https://www.vcalvario.com/static/portfolio/images/LogoFinalForever.png');
   background-position: center;
@@ -11821,8 +11821,8 @@ input[type="radio"] {
 /* Media Queries for Responsiveness */
 @media (max-width: 600px) {
   .spinner {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 
   }
 
