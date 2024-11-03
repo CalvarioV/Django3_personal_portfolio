@@ -19,3 +19,5 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('load', handleScroll);
 });
+
+
