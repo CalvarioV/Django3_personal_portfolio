@@ -10,7 +10,7 @@ window.addEventListener('load', function() {
     if (pageFullyLoaded) {
       loader.style.display = 'none';
     }
-  }, 10000);
+  }, 3000);
 
   // Check if page is fully loaded
   pageFullyLoaded = true;
