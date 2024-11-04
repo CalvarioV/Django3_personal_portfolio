@@ -23,6 +23,15 @@ body.dark-mode {
   text-align: center;
 }
 
+body.dark-mode img {
+    filter:none;
+}
+
+#themeImage {
+  transition: opacity 1.2s ease-in-out;
+  opacity: 1;
+}
+
 .contact {
     margin-bottom:20px;
 }
@@ -35,19 +44,6 @@ body.dark-mode a:visited {
             color: 60d2da; /* Color for visited links */
         }
 
-/* Default: only show the light-mode image */
-.image-container .dark-mode-img {
-    display: none;
-}
-
-/* When body has the dark-mode class, show the dark-mode image */
-body.dark-mode .image-container .light-mode-img {
-    display: none;
-}
-
-body.dark-mode .image-container .dark-mode-img {
-    display: block;
-}
 
 body.dark-mode .container {
   background-color: rgba(0, 0, 0, 0.75);
@@ -159,10 +155,10 @@ footer img {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 50%;
+            width: 65%;
             max-width: 1000px; /* Optional: Set a max-width for the container to control the maximum size */
             margin: 0 auto; /* Center the container horizontally if it has a max-width */
-            padding: 20px; /* Optional: Add some padding */
+            padding: 35px; /* Optional: Add some padding */
         }
 
         /* Style the image to be responsive */
@@ -274,3 +270,5 @@ input:checked + .slider:before {
     transform: translateX(16px);
   }
 }
+
+

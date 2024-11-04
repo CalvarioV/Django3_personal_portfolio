@@ -10,8 +10,8 @@
 
     <div class="container">
         <div class="image-container">
-    <img class="light-mode-img" src="https://calvariov.pythonanywhere.com/site/subfolder/myquotecvlogoFinal.jpg" alt="Descriptive Alt Text">
-    <img class="dark-mode-img" src="https://calvariov.pythonanywhere.com/site/subfolder/calvario1Oct23.png" alt="Descriptive Alt Text">
+    <img id="themeImage" src="https://calvariov.pythonanywhere.com/site/subfolder/myquotecvlogoFinal.jpg" alt="Descriptive Alt Text">
+
 </div>
 
         <hr>
@@ -174,10 +174,7 @@ satisfaction</li>
 </footer>
 
     <script>
-      const darkModeBtn = document.getElementById("dark-mode-btn");
-      darkModeBtn.addEventListener("click", function () {
-        document.body.classList.toggle("dark-mode");
-      });
+
     </script>
     <script src="{% static 'portfolio/js/resume1.js' %}"></script>
   </body>
