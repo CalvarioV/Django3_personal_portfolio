@@ -24,11 +24,11 @@ body.dark-mode {
 }
 
 body.dark-mode img {
-    filter:none;
+
 }
 
 #themeImage {
-  transition: opacity 1.2s ease-in-out;
+  transition: opacity 1s ease-in-out;
   opacity: 1;
 }
 
