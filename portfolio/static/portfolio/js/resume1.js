@@ -5,7 +5,7 @@ darkModeBtn.addEventListener("click", function () {
   document.body.classList.toggle("dark-mode");
 
   // Fade out the image
-  themeImage.style.opacity = 0;
+  themeImage.style.opacity = 0.1;
 
   // Wait for the fade-out to complete before changing the src
   setTimeout(() => {
