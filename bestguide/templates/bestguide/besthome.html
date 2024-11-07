@@ -36,7 +36,7 @@
                                     <p><strong>Panel Type:</strong> {{ model.panel_type }}</p>
                                     <p><strong>Refresh Rate:</strong> {{ model.refresh_rate }}</p>
                                     <p><strong>Smart OS:</strong> {{ model.smart_os }}</p>
-                                    <p><strong>HDMI Inputs:</strong> {{ model.hdmi_inputs }}</p>
+<!--                                    <p><strong>HDMI Inputs:</strong> {{ model.hdmi_inputs }}</p>-->
                                     <p><strong>Rating:</strong> {{ model.rating }}</p>
                                     <div class="model-details">
                                         <table class="table table-bordered">
@@ -50,7 +50,7 @@
                                                 {% for size_price in model.sizes_prices %}
                                                     <tr>
                                                         <td>{{ size_price.size }}</td>
-                                                        <td>${{ size_price.price }}</td>
+                                                        <td>${{ size_price.price }} 🤑</td>
                                                     </tr>
                                                 {% endfor %}
                                             </tbody>
