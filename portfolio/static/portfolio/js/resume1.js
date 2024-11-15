@@ -10,7 +10,7 @@ darkModeBtn.addEventListener("click", function () {
   // Wait for the fade-out to complete before changing the src
   setTimeout(() => {
     if (document.body.classList.contains("dark-mode")) {
-      themeImage.src = "https://calvariov.pythonanywhere.com/site/subfolder/calvario1Oct23.png"; // Image for dark mode
+      themeImage.src = "https://calvariov.pythonanywhere.com/site/subfolder/MatrixVision.gif"; // Image for dark mode
     } else {
       themeImage.src = "https://calvariov.pythonanywhere.com/site/subfolder/myquotecvlogoFinal.jpg"; // Image for light mode
     }
