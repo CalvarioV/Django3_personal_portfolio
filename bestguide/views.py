@@ -115,7 +115,7 @@ def besthome(request):
                                  {'size': '83"', 'price': 4499.99}],
                 'image': '/portfolio/assets/teles/samsung_s90d.png',
                 'promo_link': 'https://www.bestbuy.com/site/samsung-42-class-s90d-series-oled-4k-uhd-smart-tizen-tv-2024/6578067.p?skuId=6578067',
-                'rating': '⭐⭐⭐⭐'
+                'rating': '⭐⭐⭐⭐⭐️'
             },
             {
                 'model': 'QN90D',
@@ -154,10 +154,15 @@ def besthome(request):
                 'refresh_rate': '60 Hz',
                 'smart_os': 'Tizen',
                 'hdmi_inputs': 3,
-                'sizes_prices': [{'size': '55"', 'price': 900}, {'size': '65"', 'price': 1300},
-                                 {'size': '75"', 'price': 1700}],
-                'image': 'images/samsung_q60d.png',
-                'promo_link': 'https://example.com/samsung-q60d-promo',
+                'sizes_prices': [{'size': '32"', 'price': 449.99},
+                                 {'size': '43"', 'price': 499.99},
+                                 {'size': '50"', 'price': 599.99},
+                                 {'size': '55"', 'price': 699.99},
+                                 {'size': '65"', 'price': 799.99},
+                                 {'size': '75"', 'price': 1099.99},
+                                 {'size': '85"', 'price': 1599.99}],
+                'image': '/portfolio/assets/teles/samsung_q60d.png',
+                'promo_link': 'https://www.bestbuy.com/site/samsung-32-class-q60d-series-qled-4k-smart-tizen-tv-2024/6576335.p?skuId=6576335',
                 'rating': '⭐⭐⭐'
             },
             {
@@ -166,10 +171,16 @@ def besthome(request):
                 'refresh_rate': '60 Hz',
                 'smart_os': 'Tizen',
                 'hdmi_inputs': 2,
-                'sizes_prices': [{'size': '55"', 'price': 800}, {'size': '65"', 'price': 1200},
-                                 {'size': '75"', 'price': 1600}],
-                'image': 'images/samsung_du7200.png',
-                'promo_link': 'https://example.com/samsung-du7200-promo',
+                'sizes_prices': [{'size': '43"', 'price': 269.99},
+                                 {'size': '50"', 'price': 349.99},
+                                 {'size': '55"', 'price': 379.99},
+                                 {'size': '60"', 'price': 479.99},
+                                 {'size': '65"', 'price': 469.99},
+                                 {'size': '70"', 'price': 589.99},
+                                 {'size': '75"', 'price': 699.99},
+                                 {'size': '85"', 'price': 1099.99}],
+                'image': '/portfolio/assets/teles/samsung_du7200.png',
+                'promo_link': 'https://www.bestbuy.com/site/samsung-43-class-du7200-series-crystal-uhd-4k-smart-tizen-tv-2024/6576342.p?skuId=6576342',
                 'rating': '⭐⭐'
             }
         ],
@@ -180,10 +191,13 @@ def besthome(request):
                 'refresh_rate': '120 Hz',
                 'smart_os': 'webOS',
                 'hdmi_inputs': 4,
-                'sizes_prices': [{'size': '55"', 'price': 1400}, {'size': '65"', 'price': 1800},
-                                 {'size': '75"', 'price': 2200}],
-                'image': 'images/lg_g4.png',
-                'promo_link': 'https://example.com/lg-g4-promo',
+                'sizes_prices': [{'size': '55"', 'price': 2499.99},
+                                 {'size': '65"', 'price': 3099.99},
+                                 {'size': '77"', 'price': 4299.99},
+                                 {'size': '83"', 'price': 5999.99},
+                                 {'size': '* 97"', 'price': 24999.99}],
+                'image': '/portfolio/assets/teles/lg_g4.png',
+                'promo_link': 'https://www.bestbuy.com/site/lg-55-class-g4-series-oled-evo-4k-uhd-smart-webos-tv-2024/6578049.p?skuId=6578049',
                 'rating': '⭐⭐⭐⭐⭐'
             },
             {
