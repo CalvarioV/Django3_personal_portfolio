@@ -206,11 +206,15 @@ def besthome(request):
                 'refresh_rate': '120 Hz',
                 'smart_os': 'webOS',
                 'hdmi_inputs': 4,
-                'sizes_prices': [{'size': '55"', 'price': 1300}, {'size': '65"', 'price': 1700},
-                                 {'size': '75"', 'price': 2100}],
-                'image': 'images/lg_c4.png',
-                'promo_link': 'https://example.com/lg-c4-promo',
-                'rating': '⭐⭐⭐⭐'
+                'sizes_prices': [{'size': '42"', 'price': 1149.99},
+                                 {'size': '48"', 'price': 1199.99},
+                                 {'size': '55"', 'price': 1499.99},
+                                 {'size': '65"', 'price': 1799.99},
+                                 {'size': '77"', 'price': 2799.99},
+                                 {'size': '83"', 'price': 4499.99}],
+                'image': '/portfolio/assets/teles/lg_c4.png',
+                'promo_link': 'https://www.bestbuy.com/site/lg-42-class-c4-series-oled-evo-4k-uhd-smart-webos-tv-2024/6578050.p?skuId=6578050',
+                'rating': '🔥'
             },
             {
                 'model': 'QNED85',
